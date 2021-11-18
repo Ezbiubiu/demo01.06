@@ -34,7 +34,8 @@ public class PlayerMovement : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        
+        sp = GetComponent<SpriteRenderer>();
+
     }
 
     // Update is called once per frame
@@ -50,6 +51,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        if (hurtAmount <= 0 )
+            sp.material.SetFloat("_FlashAmount", 0);
+
         if (Input.GetMouseButton(0)) 
         {
             if (Time.time >= nextTimeOfFire)
@@ -88,8 +92,14 @@ public class PlayerMovement : MonoBehaviour
             gameObject.transform.position = new Vector2(gameObject.transform.position.x + difference.x, gameObject.transform.position.y + difference.y); //击退距离 repel distance
             if (hit)
             {
-                StartCoroutine(HitBoxoff());
-                health--;
+                if(health >= 1)
+                {
+                    StartCoroutine(HitBoxoff());
+                    health--;
+                    HurtShader(); // BUG: will become "COLOR:PINK" for all the time after get hit by once!!!
+                }else{
+                    Destroy(gameObject); //Player has been killed
+                }
             }
         }
     }

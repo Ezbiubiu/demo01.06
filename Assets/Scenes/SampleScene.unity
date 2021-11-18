@@ -598,6 +598,7 @@ MonoBehaviour:
   animator: {fileID: 2081164109}
   bullet: {fileID: 138893028201929186, guid: 44ec1a56a108008408fec4fdf5f43c39, type: 3}
   health: 8
+  hurtLength: 0
 --- !u!212 &2081164107
 SpriteRenderer:
   m_ObjectHideFlags: 0

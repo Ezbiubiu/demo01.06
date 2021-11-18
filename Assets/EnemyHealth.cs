@@ -8,8 +8,15 @@ public class EnemyHealth : MonoBehaviour
     private float health;
 
     private float MaxHealth;
+//************************************************
+// enemy colliders List
+
+    private Rigidbody2D rb;
+    private float repelRange = 2f;
+    private List<Rigidbody2D> enemyRBs;
 
 
+//************************************************
     [Header("Hurt")]
     private SpriteRenderer sp;
     public float hurtLength; //flash hold time
@@ -20,7 +27,13 @@ public class EnemyHealth : MonoBehaviour
     {
         sp = GetComponent<SpriteRenderer>();
         MaxHealth = health;
+
+
+        if (enemyRBs == null)
+            enemyRBs = new List<Rigidbody2D>();
+        enemyRBs.Add(rb); 
     }
+    
 
   
     // Update is called once per frame
@@ -34,6 +47,7 @@ public class EnemyHealth : MonoBehaviour
 
         if (health < 1)
         {
+            enemyRBs.Remove(rb);             
             Destroy(gameObject);
         }
 
@@ -50,7 +64,7 @@ public class EnemyHealth : MonoBehaviour
 
             health -= GameObject.Find("Player").GetComponent<PlayerMovement>().currentWeapon.damage;
             HurtShader();
-            // Destroy(other.gameObject);
+            Destroy(other.gameObject);
         }
         
     }

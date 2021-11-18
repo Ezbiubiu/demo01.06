@@ -10,13 +10,16 @@ public class EnemyFollow : MonoBehaviour
     private Transform playerPos;
 
 
+
+
     void Awake()
     {
-        playerPos = GameObject.FindGameObjectWithTag("Player").transform;
+        playerPos = GameObject.FindGameObjectWithTag("Player").transform;      
         
     }
 
-    void Update()
+
+    void Update() // enemy follow range
     {
         if (Vector2.Distance(transform.position, playerPos.position) < 10f) // enemy will stay if distance longer than 10f
         {
