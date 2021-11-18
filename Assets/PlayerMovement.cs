@@ -22,6 +22,13 @@ public class PlayerMovement : MonoBehaviour
     private int health;
 
     private bool hit = true;
+
+
+
+    [Header("Hurt")]
+    private SpriteRenderer sp;
+    public float hurtLength; //flash hold time
+    private float hurtAmount; // counter 
     
     // Start is called before the first frame update
     void Awake()
@@ -76,15 +83,21 @@ public class PlayerMovement : MonoBehaviour
     {
         if (target.tag == "Enemy")
         {
-            // 击退效果 repel effect
-            // Vector2 difference = target.transform.position - transform.position;  // 击退角度 repel angel
-            // target.transform.position = new Vector2(target.transform.position.x + difference.x, target.transform.position.y + difference.y); //击退距离 repel distance
+            //击退效果 repel effect
+            Vector2 difference = target.transform.position - transform.position;  // 击退角度 repel angel
+            gameObject.transform.position = new Vector2(gameObject.transform.position.x + difference.x, gameObject.transform.position.y + difference.y); //击退距离 repel distance
             if (hit)
             {
                 StartCoroutine(HitBoxoff());
                 health--;
             }
         }
+    }
+
+    private void HurtShader() //受伤闪光 object flash after hurted
+    {
+        sp.material.SetFloat("_FlashAmount", 1); 
+        hurtAmount = hurtLength; //可调节闪光时间 control flash time length by control "hurtLength"
     }
 
 

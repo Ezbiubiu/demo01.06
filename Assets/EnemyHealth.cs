@@ -45,8 +45,8 @@ public class EnemyHealth : MonoBehaviour
         if (other.tag == "Bullet") 
         {
             Vector2 difference = other.transform.position - transform.position;  // 击退角度 repel angel
-            GameObject.FindWithTag("Enemy").transform.position = new Vector2(GameObject.FindWithTag("Enemy").transform.position.x + difference.x, 
-                GameObject.FindWithTag("Enemy").transform.position.y + difference.y); //击退距离 repel distance
+            gameObject.transform.position = new Vector2(gameObject.transform.position.x + difference.x, 
+                gameObject.transform.position.y + difference.y); //击退距离 repel distance
 
             health -= GameObject.Find("Player").GetComponent<PlayerMovement>().currentWeapon.damage;
             HurtShader();
