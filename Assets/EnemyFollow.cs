@@ -18,7 +18,7 @@ public class EnemyFollow : MonoBehaviour
     void Awake()
     {
         playerPos = GameObject.FindGameObjectWithTag("Player").transform;  
-        enemyPos = GameObject.FindGameObjectWithTag("Enemy").transform;  
+        enemyPos = gameObject.transform;  
         rb = GetComponent<Rigidbody2D>();    
         
     }
