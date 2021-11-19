@@ -12,7 +12,7 @@ public class EnemyHealth : MonoBehaviour
 // enemy colliders List
 
     private Rigidbody2D rb;
-    private float repelRange = 2f;
+    // private float repelRange = 2f;
     private List<Rigidbody2D> enemyRBs;
 
 
