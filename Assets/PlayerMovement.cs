@@ -83,7 +83,7 @@ public class PlayerMovement : MonoBehaviour
         hit = true;
     }
 
-    private void OnTriggerEnter2D(Collider2D target)
+    private void OnColliderEnter (Collider2D target)
     {
         if (target.tag == "Enemy")
         {
