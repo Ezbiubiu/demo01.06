@@ -8,7 +8,7 @@ public class EnemyFollow : MonoBehaviour
     public float speed;
 
     private Transform playerPos;
-    private Vector2 moveTo;
+    // private Vector2 moveTo;
 
     private Rigidbody2D rb;
 
@@ -27,7 +27,7 @@ public class EnemyFollow : MonoBehaviour
         {
             if(Vector2.Distance(transform.position,playerPos.position)>0.3f) // enemy will not be inside your body
                 // transform.position = Vector2.MoveTowards(transform.position, playerPos.position, speed * Time.deltaTime); 
-                velocity = playerPos.position - transform.position;
+                rb.velocity = new Vector2(playerPos.position);  // playerPos.position - transform.position
         }
 
     }
