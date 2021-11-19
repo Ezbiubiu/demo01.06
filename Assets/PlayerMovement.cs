@@ -92,6 +92,7 @@ public class PlayerMovement : MonoBehaviour
             gameObject.transform.position = new Vector2(gameObject.transform.position.x + difference.x, gameObject.transform.position.y + difference.y); //击退距离 repel distance
             if (hit)
             {
+                
                 if(health >= 1)
                 {
                     StartCoroutine(HitBoxoff());
