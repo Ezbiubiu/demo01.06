@@ -21,7 +21,7 @@ public class PlayerReward : MonoBehaviour
 
     void Update()
     {
-        healthNum.text = hp.ToString();
+        healthNum.text = hp.ToString(); // Object reference not set to an instance of an object
         
     }
 
