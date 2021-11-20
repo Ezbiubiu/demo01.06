@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerReward : MonoBehaviour
 {
-    [SerializeField] public int hp = 0;
+    [SerializeField] public int hp = 3;
     public Text healthNum;
 
     private void OnTriggerEnter2D(Collider2D collision)
