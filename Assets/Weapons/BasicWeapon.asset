@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentWeaponSpr: {fileID: -442042463007990425, guid: ca18d2041b40540a68cb1941754d83a2, type: 3}
   bulletPrefab: {fileID: 138893028201929186, guid: 44ec1a56a108008408fec4fdf5f43c39, type: 3}
-  fireRate: 1
-  damage: 20
+  fireRate: 50
+  damage: 2
