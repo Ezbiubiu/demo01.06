@@ -35,6 +35,8 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         sp = GetComponent<SpriteRenderer>();
+        transform.GetChild(0).GetChild(0).GetComponent<SpriteRenderer>().sprite = currentWeapon.currentWeaponSpr;
+
 
     }
 

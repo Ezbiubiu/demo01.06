@@ -1,0 +1,3106 @@
+Unity Editor version:    2020.3.18f1 (a7d1c678663c)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.0.1 (Build 21A559)
+Darwin version:          21.1.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/shilongxin/Documents/GitHub/demo01.06
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51307
+Successfully changed project path to: /Users/shilongxin/Documents/GitHub/demo01.06
+/Users/shilongxin/Documents/GitHub/demo01.06
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 143.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/shilongxin/Documents/GitHub/demo01.06/Assets
+GfxDevice: creating device client; threaded=0
+2021-11-19 18:55:28.839 Unity[28479:2305193] Color LCD preferred device: Intel(R) Iris(TM) Graphics 550 (low power)
+2021-11-19 18:55:28.839 Unity[28479:2305193] Metal devices available: 1
+2021-11-19 18:55:28.839 Unity[28479:2305193] 0: Intel(R) Iris(TM) Graphics 550 (low power)
+2021-11-19 18:55:28.839 Unity[28479:2305193] Using device Intel(R) Iris(TM) Graphics 550 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Graphics 550
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56479
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.18f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.004081 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 177.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.667 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4667ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1037ms)
+			LoadAssemblies (212ms)
+			RebuildTransferFunctionScriptingTraits (3ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (565ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (178ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005428 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 119.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.274 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2276ms)
+		BeginReloadAssembly (247ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1919ms)
+			LoadAssemblies (174ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (686ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (695ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (120ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (384ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.017336 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.021409 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.21 seconds
+Initializing Unity extensions:
+2021-11-19 18:55:38.967 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000610380 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2021-11-19 18:55:38.974 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000624c40 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2109 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.1 MB.
+System memory in use after: 231.2 MB.
+
+Unloading 112 unused Assets to reduce memory usage. Loaded Objects now: 2588.
+Total: 13.242882 ms (FindLiveObjects: 0.602419 ms CreateObjectMapping: 0.193212 ms MarkObjects: 11.219549 ms  DeleteObjects: 1.225565 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Weapon/Crosshairs-Sheet.png
+  artifactKey: Guid(c3c8581616f9540aeb6f5fcb93254f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapon/Crosshairs-Sheet.png using Guid(c3c8581616f9540aeb6f5fcb93254f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9b101bda710cb6485918c1bd04479b') in 2.014223 seconds 
+  Import took 2.024913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006758 seconds.
+  path: Assets/Weapon/Bullets 1-Sheet.png
+  artifactKey: Guid(f040768dd513a4cb9bc2870c93b8c4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapon/Bullets 1-Sheet.png using Guid(f040768dd513a4cb9bc2870c93b8c4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991cab641a65928f1632972003a35996') in 0.067471 seconds 
+  Import took 0.074017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Weapon/Weapons 1-Sheet_0.prefab
+  artifactKey: Guid(84414e1437a044b4c9315487e339a578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapon/Weapons 1-Sheet_0.prefab using Guid(84414e1437a044b4c9315487e339a578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934674e5a1409dc1ebdfc5d9371be13e') in 1.375720 seconds 
+  Import took 1.381074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004826 seconds.
+  path: Assets/Weapons/BasicWeapon.asset
+  artifactKey: Guid(cf7d1901b70d86e4c8c563a6d3aa22d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/BasicWeapon.asset using Guid(cf7d1901b70d86e4c8c563a6d3aa22d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93563d342b6a0c1c551906d53febcf28') in 0.144763 seconds 
+  Import took 0.151211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005292 seconds.
+  path: Assets/Weapon/Weapons 1-Sheet.png
+  artifactKey: Guid(ca18d2041b40540a68cb1941754d83a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapon/Weapons 1-Sheet.png using Guid(ca18d2041b40540a68cb1941754d83a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18eadda1736d6ad280b38b8fca7c8ae7') in 0.477351 seconds 
+  Import took 0.484470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.296681 seconds.
+  path: Assets/Weapons/New Weapon.asset
+  artifactKey: Guid(d1a1955a9b5ac4d3ca57b422db460d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/New Weapon.asset using Guid(d1a1955a9b5ac4d3ca57b422db460d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a7e2ffc1633e188b99df6da5d854cb') in 0.007934 seconds 
+  Import took 0.016667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008031 seconds.
+  path: Assets/Weapons/New Weapon.asset
+  artifactKey: Guid(d1a1955a9b5ac4d3ca57b422db460d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/New Weapon.asset using Guid(d1a1955a9b5ac4d3ca57b422db460d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a7e2ffc1633e188b99df6da5d854cb') in 0.003112 seconds 
+  Import took 0.011267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 973.492005 seconds.
+  path: Assets/WeaponAsset/weapons
+  artifactKey: Guid(5e058904580db41b19bd6ac421e744ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons using Guid(5e058904580db41b19bd6ac421e744ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8f544fe637663e51038764626b87d8') in 0.006183 seconds 
+  Import took 0.065207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.683656 seconds.
+  path: Assets/WeaponAsset/weapons/1.png
+  artifactKey: Guid(fee77e245ea774f83a7357fb6e4c77d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/1.png using Guid(fee77e245ea774f83a7357fb6e4c77d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253ab03b1da0525798cf4561195ccdb0') in 0.059650 seconds 
+  Import took 0.066872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/WeaponAsset/weapons/9.png
+  artifactKey: Guid(ebccf0346ca0645cb99de7dca2fe10cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/9.png using Guid(ebccf0346ca0645cb99de7dca2fe10cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfe7477db72c1e383d87bac5e529332') in 0.028668 seconds 
+  Import took 0.039527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004298 seconds.
+  path: Assets/WeaponAsset/weapons/4.png
+  artifactKey: Guid(b91a24d5f620e4b2588d82721461ce44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/4.png using Guid(b91a24d5f620e4b2588d82721461ce44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edb7cb8d7dc29e2efb13fb5766ab0e6') in 0.027282 seconds 
+  Import took 0.036893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/WeaponAsset/weapons/12.png
+  artifactKey: Guid(57cef4a11d0c149a7b294b54f8822d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/12.png using Guid(57cef4a11d0c149a7b294b54f8822d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd861fb58ca0726d1c530324feb1128ac') in 0.052149 seconds 
+  Import took 0.059390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000605 seconds.
+  path: Assets/WeaponAsset/weapons/8.png
+  artifactKey: Guid(fe0cb9641f27949249ae4b4c2121c494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/8.png using Guid(fe0cb9641f27949249ae4b4c2121c494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc217225767fe28aa4024e5e119de62') in 0.058460 seconds 
+  Import took 0.064617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/WeaponAsset/weapons/7.png
+  artifactKey: Guid(d3ab100ad9b8f40ed8bde6cdffcc87dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/7.png using Guid(d3ab100ad9b8f40ed8bde6cdffcc87dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06f416428b8363acfddfb81142e85dd') in 0.052356 seconds 
+  Import took 0.059219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/WeaponAsset/weapons/10.png
+  artifactKey: Guid(6a26db81b18e049cc84a97b7fff54752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/10.png using Guid(6a26db81b18e049cc84a97b7fff54752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a1a9051d9b9c3ec5b8209b52228d1a') in 0.059591 seconds 
+  Import took 0.065860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/WeaponAsset/weapons/5.png
+  artifactKey: Guid(fbf0e5bb7137c4788b2c54f4888262e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/5.png using Guid(fbf0e5bb7137c4788b2c54f4888262e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1a2850150f5991569f3ccab67883ce') in 0.060900 seconds 
+  Import took 0.067634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/WeaponAsset/weapons/weapons.png
+  artifactKey: Guid(2dedf955f35764033892b8bbfd675242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/weapons.png using Guid(2dedf955f35764033892b8bbfd675242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f563291091cfe26980f15f642a5425fb') in 0.055560 seconds 
+  Import took 0.062357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/WeaponAsset/weapons/11.png
+  artifactKey: Guid(94aaa18cf16a04c7ab05204f4ec75277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/11.png using Guid(94aaa18cf16a04c7ab05204f4ec75277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c115489355a5c043baff8c555b6df53') in 0.018425 seconds 
+  Import took 0.028215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/WeaponAsset/weapons/3.png
+  artifactKey: Guid(8f74193e492e74043833e1f4d718e246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/3.png using Guid(8f74193e492e74043833e1f4d718e246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24bdc702d02dd42233292086e212f9f2') in 0.054779 seconds 
+  Import took 0.060832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/WeaponAsset/weapons/2.png
+  artifactKey: Guid(8b2240919a0274b9f898dea87fdcf9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/2.png using Guid(8b2240919a0274b9f898dea87fdcf9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2833d8b8b367d89b5e03b2f2befa4f6a') in 0.044226 seconds 
+  Import took 0.050297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/WeaponAsset/weapons/6.png
+  artifactKey: Guid(cfcd9880cf13c463e8e4f63effc4ebe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/6.png using Guid(cfcd9880cf13c463e8e4f63effc4ebe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac7a1f5d9d903c366b76b72f374f81e') in 0.051847 seconds 
+  Import took 0.057669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.220683 seconds.
+  path: Assets/WeaponAsset/weapons/shoot
+  artifactKey: Guid(e09510abb4d0148b2ac421acb589ce06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/shoot using Guid(e09510abb4d0148b2ac421acb589ce06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ea334e1176d766bd6cddb79915aaa1') in 0.005844 seconds 
+  Import took 0.014164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074987 seconds.
+  path: Assets/WeaponAsset/weapons/shoot/1.png
+  artifactKey: Guid(e485a2b2ab4714a7fb066ad8198465f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/shoot/1.png using Guid(e485a2b2ab4714a7fb066ad8198465f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a9f77483275ce60cbe963a3983ffd5') in 0.026060 seconds 
+  Import took 0.032872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/WeaponAsset/weapons/shoot/4.png
+  artifactKey: Guid(cc6f3e0d649874916aea74f912a4ee76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/shoot/4.png using Guid(cc6f3e0d649874916aea74f912a4ee76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340eb989978baffe744f2f03f7028caf') in 0.021453 seconds 
+  Import took 0.027946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/WeaponAsset/weapons/shoot/8.png
+  artifactKey: Guid(9bee721dfe4a04affb6a6c6734567554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/shoot/8.png using Guid(9bee721dfe4a04affb6a6c6734567554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fecbc5f8446af9b4a6c915602ba7fa8e') in 0.031226 seconds 
+  Import took 0.042134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001982 seconds.
+  path: Assets/WeaponAsset/weapons/shoot/6.png
+  artifactKey: Guid(7e0b60568b6584d76927911de9d33637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/shoot/6.png using Guid(7e0b60568b6584d76927911de9d33637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2153773a9e98d4f67a9d2df72d0cb6f') in 0.025111 seconds 
+  Import took 0.038670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000736 seconds.
+  path: Assets/WeaponAsset/weapons/shoot/10.png
+  artifactKey: Guid(23b80b15473ae4fc1b715e505f14bd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/shoot/10.png using Guid(23b80b15473ae4fc1b715e505f14bd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567ff77fc4d696686d14a1ab21fdde8f') in 0.015887 seconds 
+  Import took 0.023435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/WeaponAsset/weapons/shoot/Bomb.png
+  artifactKey: Guid(370bb09186c134503830324873c873b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/shoot/Bomb.png using Guid(370bb09186c134503830324873c873b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd07c863be03dadbc24350c7739290e1') in 0.050303 seconds 
+  Import took 0.056279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/WeaponAsset/weapons/shoot/5b.png
+  artifactKey: Guid(c02f9fea5f65940238c5a4c96d5eb2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/shoot/5b.png using Guid(c02f9fea5f65940238c5a4c96d5eb2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adec8452135665801d85e439884d5b1a') in 0.065038 seconds 
+  Import took 0.083485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/WeaponAsset/weapons/shoot/bullets.png
+  artifactKey: Guid(639f5862f1c0842c981a5305d106fcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/shoot/bullets.png using Guid(639f5862f1c0842c981a5305d106fcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77cf0c466fcd67a39c5d915d74f6074') in 0.045912 seconds 
+  Import took 0.051728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/WeaponAsset/weapons/shoot/3.png
+  artifactKey: Guid(60067fdb253ba4d3d9ec4e6037ab761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/shoot/3.png using Guid(60067fdb253ba4d3d9ec4e6037ab761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a5d242219d8a29cbe8434aaeba9bd9') in 0.049117 seconds 
+  Import took 0.056604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/WeaponAsset/weapons/shoot/9.png
+  artifactKey: Guid(166801be18f71446791338d28fe6d2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/shoot/9.png using Guid(166801be18f71446791338d28fe6d2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddd53c8110953d2ace79093b07be4da') in 0.012580 seconds 
+  Import took 0.017940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/WeaponAsset/weapons/shoot/5.png
+  artifactKey: Guid(e952ab82cbbe04aca82feb432c8fe89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/shoot/5.png using Guid(e952ab82cbbe04aca82feb432c8fe89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486e9b46b23844d1288438f3b8a31603') in 0.111942 seconds 
+  Import took 0.122704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005126 seconds.
+  path: Assets/WeaponAsset/weapons/shoot/11.png
+  artifactKey: Guid(e2818a6d4b319489aa834c27b11c63c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/shoot/11.png using Guid(e2818a6d4b319489aa834c27b11c63c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33aa733b97843f1fe99fb2c3c47888ef') in 0.065281 seconds 
+  Import took 0.085965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000803 seconds.
+  path: Assets/WeaponAsset/weapons/shoot/7.png
+  artifactKey: Guid(fec4cbdaf39a846a98ebb4b0c82325cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/shoot/7.png using Guid(fec4cbdaf39a846a98ebb4b0c82325cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9182a1ccc77c53f0c95525196e3f844') in 0.080253 seconds 
+  Import took 0.102479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000728 seconds.
+  path: Assets/WeaponAsset/weapons/shoot/2.png
+  artifactKey: Guid(1a4616e1adc1942be96b93b0349368e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/shoot/2.png using Guid(1a4616e1adc1942be96b93b0349368e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e02ca6523d502e32e067b33a47a7df2') in 0.057711 seconds 
+  Import took 0.068897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/WeaponAsset/weapons/shoot/12.png
+  artifactKey: Guid(c1bcb6eaaea4740f7bf45d0097615532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/shoot/12.png using Guid(c1bcb6eaaea4740f7bf45d0097615532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9a353458c73a6ddf66be805e54eb91') in 0.054382 seconds 
+  Import took 0.072533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.885547 seconds.
+  path: Assets/WeaponAsset/weapons/shoot/bullets.png
+  artifactKey: Guid(639f5862f1c0842c981a5305d106fcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/shoot/bullets.png using Guid(639f5862f1c0842c981a5305d106fcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c0e25a43df1840de3bbc8433241618') in 0.016416 seconds 
+  Import took 0.024282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 303.763388 seconds.
+  path: Assets/WeaponAsset/weapons/weapons.png
+  artifactKey: Guid(2dedf955f35764033892b8bbfd675242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/weapons.png using Guid(2dedf955f35764033892b8bbfd675242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3f46330981c33a8502a0a8629671dd') in 0.016292 seconds 
+  Import took 0.024598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.560645 seconds.
+  path: Assets/WeaponAsset/weapons/weapons.png
+  artifactKey: Guid(2dedf955f35764033892b8bbfd675242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/weapons.png using Guid(2dedf955f35764033892b8bbfd675242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd698a47d48f28fc4076f5a7a422fc1f4') in 0.373103 seconds 
+  Import took 0.380847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.912225 seconds.
+  path: Assets/WeaponAsset/weapons/shoot/bullets.png
+  artifactKey: Guid(639f5862f1c0842c981a5305d106fcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/shoot/bullets.png using Guid(639f5862f1c0842c981a5305d106fcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f699f967ba5a4d848577dbcc6a698c36') in 0.027575 seconds 
+  Import took 0.034176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.143776 seconds.
+  path: Assets/WeaponAsset/weapons/shoot/bullets.png
+  artifactKey: Guid(639f5862f1c0842c981a5305d106fcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/shoot/bullets.png using Guid(639f5862f1c0842c981a5305d106fcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59628c9a43ab055dc15ec60ec1e2e1ed') in 0.646997 seconds 
+  Import took 0.653267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.745099 seconds.
+  path: Assets/WeaponsPrefabs/ImprovedWeapon.asset
+  artifactKey: Guid(d1a1955a9b5ac4d3ca57b422db460d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ImprovedWeapon.asset using Guid(d1a1955a9b5ac4d3ca57b422db460d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68af4c4fc23d8fd2a440b6bc3e6836f6') in 0.036693 seconds 
+  Import took 0.046433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.553550 seconds.
+  path: Assets/Zombie - Pixel Art/Sprites/Background.png
+  artifactKey: Guid(30cbfa6316037dd4b818ef9ea24a6c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie - Pixel Art/Sprites/Background.png using Guid(30cbfa6316037dd4b818ef9ea24a6c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeae9461b0b1d247cb8aa22de0158544') in 0.018913 seconds 
+  Import took 0.025130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.257458 seconds.
+  path: Assets/dungeon16x16/props_itens/bag_coins.png
+  artifactKey: Guid(eccef408ae6050143bd08380f7962094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dungeon16x16/props_itens/bag_coins.png using Guid(eccef408ae6050143bd08380f7962094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba89a1d5d77f1851f1968a513a80fc86') in 0.016792 seconds 
+  Import took 0.022416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/dungeon16x16/props_itens/barrel.png
+  artifactKey: Guid(270de3c00e3c25443be38de4d4ccc1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dungeon16x16/props_itens/barrel.png using Guid(270de3c00e3c25443be38de4d4ccc1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7047f0911a2ffac4e9209c5fe149905') in 0.015235 seconds 
+  Import took 0.021683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000604 seconds.
+  path: Assets/Art/gfx/basic_colors.png
+  artifactKey: Guid(d05a64f7b1f830a4cbb0f911a25ea464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/gfx/basic_colors.png using Guid(d05a64f7b1f830a4cbb0f911a25ea464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5bfb1f59e69bad18f159cd37a4d591') in 0.012577 seconds 
+  Import took 0.017819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/dungeon16x16/props_itens/bag_coins.png
+  artifactKey: Guid(eccef408ae6050143bd08380f7962094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dungeon16x16/props_itens/bag_coins.png using Guid(eccef408ae6050143bd08380f7962094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba89a1d5d77f1851f1968a513a80fc86') in 0.024282 seconds 
+  Import took 0.031631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/dungeon16x16/props_itens/barrel.png
+  artifactKey: Guid(270de3c00e3c25443be38de4d4ccc1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dungeon16x16/props_itens/barrel.png using Guid(270de3c00e3c25443be38de4d4ccc1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7047f0911a2ffac4e9209c5fe149905') in 0.048855 seconds 
+  Import took 0.054304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010012 seconds.
+  path: Assets/dungeon16x16/props_itens/bomb_anim_f0.png
+  artifactKey: Guid(cbd16135118e9fc469b5d8af1ed88c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dungeon16x16/props_itens/bomb_anim_f0.png using Guid(cbd16135118e9fc469b5d8af1ed88c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9659f5c83099e81f48108360de1af50') in 0.052788 seconds 
+  Import took 0.058073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/dungeon16x16/props_itens/bomb_anim_f1.png
+  artifactKey: Guid(36e8ab9e55d43094f987c897dce19a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dungeon16x16/props_itens/bomb_anim_f1.png using Guid(36e8ab9e55d43094f987c897dce19a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b8eef7745676f20ff74f4f59e790e5') in 0.057289 seconds 
+  Import took 0.062872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132430 seconds.
+  path: Assets/dungeon16x16/props_itens/bomb_anim_f1.png
+  artifactKey: Guid(36e8ab9e55d43094f987c897dce19a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dungeon16x16/props_itens/bomb_anim_f1.png using Guid(36e8ab9e55d43094f987c897dce19a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b8eef7745676f20ff74f4f59e790e5') in 0.012306 seconds 
+  Import took 0.018255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.443600 seconds.
+  path: Assets/dungeon16x16/props_itens/bomb_anim_f3.png
+  artifactKey: Guid(afa5bbe7f3cca384f9e78cad165f8388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dungeon16x16/props_itens/bomb_anim_f3.png using Guid(afa5bbe7f3cca384f9e78cad165f8388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddec0f1f8d7149776cd929c33073792') in 0.016167 seconds 
+  Import took 0.022208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/dungeon16x16/props_itens/bomb_anim_f6.png
+  artifactKey: Guid(26e3b302b33536d41969efe5013ce6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dungeon16x16/props_itens/bomb_anim_f6.png using Guid(26e3b302b33536d41969efe5013ce6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ede6d938c9a52f001a4a6a402481b8') in 0.049683 seconds 
+  Import took 0.056293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/dungeon16x16/props_itens/bomb_anim_f7.png
+  artifactKey: Guid(be9b3a7fa0e6a7542b7fcc652b145aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dungeon16x16/props_itens/bomb_anim_f7.png using Guid(be9b3a7fa0e6a7542b7fcc652b145aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ccf1aa1b34293075a6f3a8f9b17172') in 0.048931 seconds 
+  Import took 0.054662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/dungeon16x16/props_itens/bomb_anim_f8.png
+  artifactKey: Guid(32c8693e0c22dc64c84180274ef856a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dungeon16x16/props_itens/bomb_anim_f8.png using Guid(32c8693e0c22dc64c84180274ef856a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d321d981f427103c4c7375f6baa7ce') in 0.013038 seconds 
+  Import took 0.019951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/dungeon16x16/props_itens/bomb_anim_f9.png
+  artifactKey: Guid(1504a9a22a9b0ae4287515914fef10ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dungeon16x16/props_itens/bomb_anim_f9.png using Guid(1504a9a22a9b0ae4287515914fef10ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fc814d813187d767527d4687322ff2') in 0.050001 seconds 
+  Import took 0.056567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/dungeon16x16/props_itens/bomb_anim_f5.png
+  artifactKey: Guid(10281ec89f63d1143a47bf517b3114b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dungeon16x16/props_itens/bomb_anim_f5.png using Guid(10281ec89f63d1143a47bf517b3114b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff6ea17b672652498a5a98c541a4feb') in 0.059436 seconds 
+  Import took 0.065491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000650 seconds.
+  path: Assets/dungeon16x16/props_itens/bomb_anim_spritesheet.png
+  artifactKey: Guid(3f3d6104dfff9d748bbe52c9dd22f266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dungeon16x16/props_itens/bomb_anim_spritesheet.png using Guid(3f3d6104dfff9d748bbe52c9dd22f266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbd038d7f1b77101559f6d4aa42d756') in 0.053491 seconds 
+  Import took 0.060183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/dungeon16x16/props_itens/bookshelf.png
+  artifactKey: Guid(0b2c43c0e1eac1d448589d28ec3b407e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dungeon16x16/props_itens/bookshelf.png using Guid(0b2c43c0e1eac1d448589d28ec3b407e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6f039dd53f97d93fe13c3a314802dd') in 0.052913 seconds 
+  Import took 0.059609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000733 seconds.
+  path: Assets/dungeon16x16/props_itens/bomb_anim_f4.png
+  artifactKey: Guid(4c73c87d37db62a4a98c178232adcd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dungeon16x16/props_itens/bomb_anim_f4.png using Guid(4c73c87d37db62a4a98c178232adcd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7573aea05778bac576e58c6016824ed8') in 0.014008 seconds 
+  Import took 0.019538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.184083 seconds.
+  path: Assets/dungeon16x16/props_itens/bookshelf.png
+  artifactKey: Guid(0b2c43c0e1eac1d448589d28ec3b407e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dungeon16x16/props_itens/bookshelf.png using Guid(0b2c43c0e1eac1d448589d28ec3b407e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6f039dd53f97d93fe13c3a314802dd') in 0.013858 seconds 
+  Import took 0.019466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Bringer Of Death/Sprite Sheet/Bringer-of-Death-SpritSheet.png
+  artifactKey: Guid(1914d95466e3d4341a618c35a56d5f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bringer Of Death/Sprite Sheet/Bringer-of-Death-SpritSheet.png using Guid(1914d95466e3d4341a618c35a56d5f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4615a9ba8361ddf975cc0b36948738') in 0.711398 seconds 
+  Import took 0.718435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/dungeon16x16/props_itens/bomb_anim_f2.png
+  artifactKey: Guid(73096b3990b02954f982d348552f99d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dungeon16x16/props_itens/bomb_anim_f2.png using Guid(73096b3990b02954f982d348552f99d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0dea7843555d5acb578d66de39bc070') in 0.018881 seconds 
+  Import took 0.023730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.217009 seconds.
+  path: Assets/WeaponsPrefabs/WaveWeapon.asset
+  artifactKey: Guid(075a2d4c82c08490391d1a2d4cb97729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/WaveWeapon.asset using Guid(075a2d4c82c08490391d1a2d4cb97729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16fd0a02af67b54d2f9eb1e9b55c3b2d') in 0.008536 seconds 
+  Import took 0.017824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.872361 seconds.
+  path: Assets/WeaponsPrefabs/ShutWeapon.asset
+  artifactKey: Guid(124c773b60241415991c173c0b8b62ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ShutWeapon.asset using Guid(124c773b60241415991c173c0b8b62ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276969c25e10941da84e1c3c2acb7ccc') in 0.008908 seconds 
+  Import took 0.018840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 569.204782 seconds.
+  path: Assets/Bullet02.cs
+  artifactKey: Guid(1c42b39ebff1c5646912a8c5bc083607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullet02.cs using Guid(1c42b39ebff1c5646912a8c5bc083607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3164026633d38b7a93678a5573fa0ef') in 0.697541 seconds 
+  Import took 0.703500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.524728 seconds.
+  path: Assets/Weapon.cs
+  artifactKey: Guid(0dfc648c36ea7ab44994418c33edb022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapon.cs using Guid(0dfc648c36ea7ab44994418c33edb022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c1a3cc10d3e90a7aa3a90db99a75eb') in 0.005497 seconds 
+  Import took 0.011206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.089618 seconds.
+  path: Assets/Pistol02.cs
+  artifactKey: Guid(77b77edd7ff19ba4fa162f63427e3653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pistol02.cs using Guid(77b77edd7ff19ba4fa162f63427e3653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200f1560d25c1fb3baba439515a960e0') in 0.007714 seconds 
+  Import took 0.024167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.041945 seconds.
+  path: Assets/Bullet02.cs
+  artifactKey: Guid(1c42b39ebff1c5646912a8c5bc083607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullet02.cs using Guid(1c42b39ebff1c5646912a8c5bc083607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fe835eaad11e081a0cc599c80e8e37') in 0.006998 seconds 
+  Import took 0.020879 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007273 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-19 19:39:23.355 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000653bf0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.874 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3877ms)
+		BeginReloadAssembly (372ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (205ms)
+		EndReloadAssembly (3391ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1303ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (224ms)
+			SetupLoadedEditorAssemblies (1520ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (643ms)
+				ProcessInitializeOnLoadAttributes (853ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 248.0 MB.
+System memory in use after: 248.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2833.
+Total: 7.032893 ms (FindLiveObjects: 0.659371 ms CreateObjectMapping: 0.274044 ms MarkObjects: 6.061171 ms  DeleteObjects: 0.036743 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 44.359900 seconds.
+  path: Assets/Bullet02.cs
+  artifactKey: Guid(1c42b39ebff1c5646912a8c5bc083607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullet02.cs using Guid(1c42b39ebff1c5646912a8c5bc083607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bd95b0fda743399fae095f1c5edeac') in 0.016665 seconds 
+  Import took 0.023925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003662 seconds.
+  path: Assets/Bullet02.cs
+  artifactKey: Guid(1c42b39ebff1c5646912a8c5bc083607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullet02.cs using Guid(1c42b39ebff1c5646912a8c5bc083607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bd95b0fda743399fae095f1c5edeac') in 0.002952 seconds 
+  Import took 0.010580 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.028098 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-19 19:44:42.561 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000618e00 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.293 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3294ms)
+		BeginReloadAssembly (341ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (200ms)
+		EndReloadAssembly (2719ms)
+			LoadAssemblies (170ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (873ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (1344ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (360ms)
+				ProcessInitializeOnLoadAttributes (964ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 248.2 MB.
+System memory in use after: 248.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2836.
+Total: 4.361945 ms (FindLiveObjects: 0.295965 ms CreateObjectMapping: 0.108467 ms MarkObjects: 3.866754 ms  DeleteObjects: 0.089532 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 329.313303 seconds.
+  path: Assets/BulletMovement.cs
+  artifactKey: Guid(1c42b39ebff1c5646912a8c5bc083607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BulletMovement.cs using Guid(1c42b39ebff1c5646912a8c5bc083607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929ef8cff0dc6f205d5c40b1232e8aa3') in 0.008328 seconds 
+  Import took 0.015623 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003544 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-19 19:45:10.174 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000060e680 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  4.492 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4493ms)
+		BeginReloadAssembly (467ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (143ms)
+		EndReloadAssembly (3326ms)
+			LoadAssemblies (499ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1773ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (115ms)
+			SetupLoadedEditorAssemblies (820ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (335ms)
+				ProcessInitializeOnLoadAttributes (454ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 248.4 MB.
+System memory in use after: 248.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2839.
+Total: 6.683484 ms (FindLiveObjects: 1.088726 ms CreateObjectMapping: 0.265899 ms MarkObjects: 5.219623 ms  DeleteObjects: 0.107652 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004303 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-19 19:45:56.005 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000610bd0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  4.579 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4580ms)
+		BeginReloadAssembly (426ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (305ms)
+		EndReloadAssembly (3726ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2210ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (114ms)
+			SetupLoadedEditorAssemblies (804ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (354ms)
+				ProcessInitializeOnLoadAttributes (418ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 248.6 MB.
+System memory in use after: 248.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2842.
+Total: 4.313645 ms (FindLiveObjects: 0.382826 ms CreateObjectMapping: 0.148718 ms MarkObjects: 3.759974 ms  DeleteObjects: 0.021241 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 61.789220 seconds.
+  path: Assets/BulletMovement.cs
+  artifactKey: Guid(1c42b39ebff1c5646912a8c5bc083607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BulletMovement.cs using Guid(1c42b39ebff1c5646912a8c5bc083607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbf8d47119c0f76dc07570f943514e1') in 0.006966 seconds 
+  Import took 0.011596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003095 seconds.
+  path: Assets/BulletMovement.cs
+  artifactKey: Guid(1c42b39ebff1c5646912a8c5bc083607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BulletMovement.cs using Guid(1c42b39ebff1c5646912a8c5bc083607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbf8d47119c0f76dc07570f943514e1') in 0.002600 seconds 
+  Import took 0.008635 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008028 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-19 19:54:17.410 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000604f50 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.227 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3228ms)
+		BeginReloadAssembly (498ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (201ms)
+		EndReloadAssembly (2606ms)
+			LoadAssemblies (220ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (489ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (1420ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (230ms)
+				ProcessInitializeOnLoadAttributes (1170ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 248.8 MB.
+System memory in use after: 249.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2845.
+Total: 4.995257 ms (FindLiveObjects: 0.377840 ms CreateObjectMapping: 0.120225 ms MarkObjects: 4.465942 ms  DeleteObjects: 0.029941 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 644.100294 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(6f238d507dbe19c49afda7b97f3d10ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(6f238d507dbe19c49afda7b97f3d10ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427db626d38392f8d4e0bc99d94d6f53') in 0.012455 seconds 
+  Import took 0.023616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076314 seconds.
+  path: Assets/Prefabs/BasicRoom.prefab
+  artifactKey: Guid(37660c005d7a05d4eaa6652f4c69ab68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BasicRoom.prefab using Guid(37660c005d7a05d4eaa6652f4c69ab68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2568e569d1a5d9001e7c4477128dbc21') in 0.215166 seconds 
+  Import took 0.220648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Prefabs/Zombie_0.prefab
+  artifactKey: Guid(6bfe1a1de48ba054cb757dc8dcf81a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Zombie_0.prefab using Guid(6bfe1a1de48ba054cb757dc8dcf81a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d2518fe2aed8f0f633bc4079cf5a8b') in 0.150487 seconds 
+  Import took 0.159024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001259 seconds.
+  path: Assets/Prefabs/Bullets02.prefab
+  artifactKey: Guid(44ec1a56a108008408fec4fdf5f43c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bullets02.prefab using Guid(44ec1a56a108008408fec4fdf5f43c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35900dc626cd20088dd62e79d7f8414f') in 0.154052 seconds 
+  Import took 0.165511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015975 seconds.
+  path: Assets/Prefabs/Bullets02.prefab
+  artifactKey: Guid(44ec1a56a108008408fec4fdf5f43c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bullets02.prefab using Guid(44ec1a56a108008408fec4fdf5f43c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35900dc626cd20088dd62e79d7f8414f') in 0.015723 seconds 
+  Import took 0.024621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.635903 seconds.
+  path: Assets/WeaponsPrefabs/ImprovedBullet.prefab
+  artifactKey: Guid(3bc1d29a1f86c4d6ea645c8c755f7a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ImprovedBullet.prefab using Guid(3bc1d29a1f86c4d6ea645c8c755f7a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64db2802e19d6b48663ef15b8e97c6bf') in 0.019039 seconds 
+  Import took 0.026614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.690501 seconds.
+  path: Assets/WeaponAsset/weapons/shoot/2.png
+  artifactKey: Guid(1a4616e1adc1942be96b93b0349368e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/shoot/2.png using Guid(1a4616e1adc1942be96b93b0349368e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08d45b61a40772c5115d7d3c4f091cc') in 0.043768 seconds 
+  Import took 0.054048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 141.983507 seconds.
+  path: Assets/WeaponAsset/weapons/shoot/2.png
+  artifactKey: Guid(1a4616e1adc1942be96b93b0349368e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/shoot/2.png using Guid(1a4616e1adc1942be96b93b0349368e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca5307d0819d9697384f90b6b2f028a') in 0.121098 seconds 
+  Import took 0.126671 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007615 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-19 20:05:46.831 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000617170 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.486 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3488ms)
+		BeginReloadAssembly (947ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (28ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (608ms)
+		EndReloadAssembly (2181ms)
+			LoadAssemblies (431ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (684ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (930ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (396ms)
+				ProcessInitializeOnLoadAttributes (477ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.2 MB.
+System memory in use after: 249.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2855.
+Total: 4.538413 ms (FindLiveObjects: 0.504947 ms CreateObjectMapping: 0.160378 ms MarkObjects: 3.835341 ms  DeleteObjects: 0.036328 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 365.043492 seconds.
+  path: Assets/WeaponsPrefabs/WaveBullet.prefab
+  artifactKey: Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/WaveBullet.prefab using Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb931cf6af1bf87398de89bbabf6ddc') in 0.126880 seconds 
+  Import took 0.146559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 589.090483 seconds.
+  path: Assets/WeaponsPrefabs/WaveBullet.prefab
+  artifactKey: Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/WaveBullet.prefab using Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049ecbbf72b959cdc18c66f39fdda871') in 0.026151 seconds 
+  Import took 0.034318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.620069 seconds.
+  path: Assets/WeaponsPrefabs/ImprovedBullet.prefab
+  artifactKey: Guid(3bc1d29a1f86c4d6ea645c8c755f7a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ImprovedBullet.prefab using Guid(3bc1d29a1f86c4d6ea645c8c755f7a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc2ee762921599e9447dcc1e148be6d') in 0.027378 seconds 
+  Import took 0.037015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.219542 seconds.
+  path: Assets/WeaponsPrefabs/WaveBullet.prefab
+  artifactKey: Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/WaveBullet.prefab using Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7100d9e19f0aeb539d3ba8415e0e0e5') in 0.047231 seconds 
+  Import took 0.061321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.652587 seconds.
+  path: Assets/WeaponsPrefabs/ShutBullet.prefab
+  artifactKey: Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ShutBullet.prefab using Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98fee5dc94c637094fd02b511e712281') in 0.025051 seconds 
+  Import took 0.033940 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007826 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-19 20:25:13.515 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000667560 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.101 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2104ms)
+		BeginReloadAssembly (293ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (161ms)
+		EndReloadAssembly (1698ms)
+			LoadAssemblies (226ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (519ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (655ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (271ms)
+				ProcessInitializeOnLoadAttributes (355ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.6 MB.
+System memory in use after: 249.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2859.
+Total: 4.590720 ms (FindLiveObjects: 0.415418 ms CreateObjectMapping: 0.126360 ms MarkObjects: 4.012768 ms  DeleteObjects: 0.034899 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 389.609674 seconds.
+  path: Assets/WeaponsPrefabs/ImprovedBullet.prefab
+  artifactKey: Guid(3bc1d29a1f86c4d6ea645c8c755f7a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ImprovedBullet.prefab using Guid(3bc1d29a1f86c4d6ea645c8c755f7a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb021979dd09880dfcec833a02c1ec2') in 0.113093 seconds 
+  Import took 0.119494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.729658 seconds.
+  path: Assets/WeaponsPrefabs/ShutBullet.prefab
+  artifactKey: Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ShutBullet.prefab using Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8613504cac6d00ccf61f0e29b3d6e73') in 0.052471 seconds 
+  Import took 0.065989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.653231 seconds.
+  path: Assets/WeaponsPrefabs/WaveBullet.prefab
+  artifactKey: Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/WaveBullet.prefab using Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74adaa12e53cf0174b748c6cc2884396') in 0.039093 seconds 
+  Import took 0.054167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.398885 seconds.
+  path: Assets/WeaponsPrefabs/ShutBullet.prefab
+  artifactKey: Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ShutBullet.prefab using Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515983726a115a77b4213497dc206b39') in 0.043193 seconds 
+  Import took 0.055177 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006818 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-19 20:28:32.435 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000667a30 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.697 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3699ms)
+		BeginReloadAssembly (280ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (28ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (3080ms)
+			LoadAssemblies (430ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (689ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (1433ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (620ms)
+				ProcessInitializeOnLoadAttributes (769ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (65ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.8 MB.
+System memory in use after: 250.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2863.
+Total: 7.928079 ms (FindLiveObjects: 0.458176 ms CreateObjectMapping: 0.199016 ms MarkObjects: 7.201396 ms  DeleteObjects: 0.066434 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 155.945754 seconds.
+  path: Assets/WeaponsPrefabs/ShutBullet.prefab
+  artifactKey: Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ShutBullet.prefab using Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d10335b78bfde103a7dab899464552') in 0.118420 seconds 
+  Import took 0.124574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.628639 seconds.
+  path: Assets/WeaponsPrefabs/WaveBullet.prefab
+  artifactKey: Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/WaveBullet.prefab using Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8893205896478c2febac50e3aae5fc') in 0.029833 seconds 
+  Import took 0.036896 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009172 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-19 20:31:10.968 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000067a1b0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.926 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3927ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (3655ms)
+			LoadAssemblies (401ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1133ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (1664ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (439ms)
+				ProcessInitializeOnLoadAttributes (1202ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.0 MB.
+System memory in use after: 250.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2867.
+Total: 4.503970 ms (FindLiveObjects: 0.325307 ms CreateObjectMapping: 0.132112 ms MarkObjects: 4.021344 ms  DeleteObjects: 0.024134 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007369 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-19 20:35:07.872 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000627e90 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.059 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3059ms)
+		BeginReloadAssembly (270ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (2316ms)
+			LoadAssemblies (468ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (562ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (1146ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (194ms)
+				ProcessInitializeOnLoadAttributes (927ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.2 MB.
+System memory in use after: 250.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2870.
+Total: 317.339277 ms (FindLiveObjects: 0.653064 ms CreateObjectMapping: 0.208306 ms MarkObjects: 316.427041 ms  DeleteObjects: 0.048973 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 376.307456 seconds.
+  path: Assets/WeaponsPrefabs/WaveBullet.prefab
+  artifactKey: Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/WaveBullet.prefab using Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec58476ec0db0a8b101283ca6b4fb6f3') in 0.149521 seconds 
+  Import took 0.156079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.211574 seconds.
+  path: Assets/WeaponsPrefabs/WaveBullet.prefab
+  artifactKey: Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/WaveBullet.prefab using Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2029d737df2901dfda84d96ffe35e1') in 0.036433 seconds 
+  Import took 0.046029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.092946 seconds.
+  path: Assets/WeaponsPrefabs/ShutBullet.prefab
+  artifactKey: Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ShutBullet.prefab using Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5b9ddf985d4bae5a0cce8548374d59') in 0.046243 seconds 
+  Import took 0.054139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.746742 seconds.
+  path: Assets/WeaponsPrefabs/ShutBullet.prefab
+  artifactKey: Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ShutBullet.prefab using Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d09ea7e612e279c86d9243dd46808d1') in 0.077280 seconds 
+  Import took 0.090150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.626640 seconds.
+  path: Assets/WeaponsPrefabs/ShutBullet.prefab
+  artifactKey: Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ShutBullet.prefab using Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2606b46b0970ff8559ca9bab4f7bf3') in 0.030146 seconds 
+  Import took 0.035938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.530369 seconds.
+  path: Assets/WeaponsPrefabs/ShutBullet.prefab
+  artifactKey: Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ShutBullet.prefab using Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2016f2c354bcb853e3ed88266c1a693b') in 0.026785 seconds 
+  Import took 0.040557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.642408 seconds.
+  path: Assets/WeaponsPrefabs/ImprovedBullet.prefab
+  artifactKey: Guid(3bc1d29a1f86c4d6ea645c8c755f7a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ImprovedBullet.prefab using Guid(3bc1d29a1f86c4d6ea645c8c755f7a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c120268fcc141bd229f451afbda71b') in 0.021797 seconds 
+  Import took 0.036828 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004652 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-19 20:42:00.016 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000607bf0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  4.090 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4093ms)
+		BeginReloadAssembly (276ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (168ms)
+		EndReloadAssembly (3724ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (969ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (2063ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (268ms)
+				ProcessInitializeOnLoadAttributes (1626ms)
+				ProcessInitializeOnLoadMethodAttributes (145ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (128ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.5 MB.
+System memory in use after: 250.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2874.
+Total: 4.497502 ms (FindLiveObjects: 0.452957 ms CreateObjectMapping: 0.140464 ms MarkObjects: 3.862640 ms  DeleteObjects: 0.039871 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 259.807636 seconds.
+  path: Assets/PlayerMovement.cs
+  artifactKey: Guid(1dce27b83cead114fa04e783403c13e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerMovement.cs using Guid(1dce27b83cead114fa04e783403c13e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05cef8787f9c85b85a74b286a9f037b') in 0.017890 seconds 
+  Import took 0.023202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044215 seconds.
+  path: Assets/PlayerMovement.cs
+  artifactKey: Guid(1dce27b83cead114fa04e783403c13e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerMovement.cs using Guid(1dce27b83cead114fa04e783403c13e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05cef8787f9c85b85a74b286a9f037b') in 0.002264 seconds 
+  Import took 0.010775 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005226 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-19 20:45:53.020 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000653a30 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.696 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2698ms)
+		BeginReloadAssembly (326ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (157ms)
+		EndReloadAssembly (2239ms)
+			LoadAssemblies (193ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (517ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (1225ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (769ms)
+				ProcessInitializeOnLoadAttributes (432ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.7 MB.
+System memory in use after: 250.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2877.
+Total: 10.952404 ms (FindLiveObjects: 0.577662 ms CreateObjectMapping: 0.457825 ms MarkObjects: 9.874945 ms  DeleteObjects: 0.038465 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 176.973243 seconds.
+  path: Assets/PlayerMovement.cs
+  artifactKey: Guid(1dce27b83cead114fa04e783403c13e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerMovement.cs using Guid(1dce27b83cead114fa04e783403c13e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9356fe38e4b7431d4c4566ede7839b') in 0.011632 seconds 
+  Import took 0.021059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.565257 seconds.
+  path: Assets/WeaponsPrefabs/WaveBullet.prefab
+  artifactKey: Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/WaveBullet.prefab using Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161bf2b6ef4e9f4987c9456728085e45') in 0.211067 seconds 
+  Import took 0.222961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.213369 seconds.
+  path: Assets/WeaponsPrefabs/WaveBullet.prefab
+  artifactKey: Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/WaveBullet.prefab using Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667c9a18e9589128c28cc2198a3aff40') in 0.022920 seconds 
+  Import took 0.030559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.724041 seconds.
+  path: Assets/WeaponsPrefabs/WaveBullet.prefab
+  artifactKey: Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/WaveBullet.prefab using Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98045e16f43b61eb284ca76b3662e30') in 0.037471 seconds 
+  Import took 0.060963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.607570 seconds.
+  path: Assets/WeaponsPrefabs/WaveBullet.prefab
+  artifactKey: Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/WaveBullet.prefab using Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c185d2a5ac1a24fc0b45215a28363ada') in 0.031441 seconds 
+  Import took 0.037699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.890715 seconds.
+  path: Assets/WeaponsPrefabs/WaveBullet.prefab
+  artifactKey: Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/WaveBullet.prefab using Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e4c3e9d45f1445f957ba3f33b3b24d') in 0.031157 seconds 
+  Import took 0.044965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.632426 seconds.
+  path: Assets/WeaponsPrefabs/WaveBullet.prefab
+  artifactKey: Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/WaveBullet.prefab using Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3db293cd1f8d978f5823cd9c0ccd649') in 0.029479 seconds 
+  Import took 0.036425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.015171 seconds.
+  path: Assets/WeaponsPrefabs/ShutBullet.prefab
+  artifactKey: Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ShutBullet.prefab using Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49419048e33fecb5610a7884b2edac1e') in 0.022518 seconds 
+  Import took 0.031028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.389154 seconds.
+  path: Assets/WeaponsPrefabs/ShutBullet.prefab
+  artifactKey: Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ShutBullet.prefab using Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30a3c22be61b8323dd8a3fcad83e47f') in 0.021304 seconds 
+  Import took 0.033240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.281240 seconds.
+  path: Assets/WeaponsPrefabs/ShutBullet.prefab
+  artifactKey: Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ShutBullet.prefab using Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222789b2f96765138c70302cf7207112') in 0.041842 seconds 
+  Import took 0.061476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.737878 seconds.
+  path: Assets/WeaponsPrefabs/ShutBullet.prefab
+  artifactKey: Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ShutBullet.prefab using Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1436e86391b57551a3e1a8c95d8a9a5f') in 0.034289 seconds 
+  Import took 0.040748 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003696 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-19 20:49:19.899 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000061b8e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.930 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1931ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (1652ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (641ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (583ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (212ms)
+				ProcessInitializeOnLoadAttributes (346ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.9 MB.
+System memory in use after: 251.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2881.
+Total: 5.022783 ms (FindLiveObjects: 0.366613 ms CreateObjectMapping: 0.145187 ms MarkObjects: 4.465853 ms  DeleteObjects: 0.043259 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004187 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-19 20:52:23.184 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000617aa0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.215 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2216ms)
+		BeginReloadAssembly (274ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (119ms)
+		EndReloadAssembly (1823ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (781ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (504ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (178ms)
+				ProcessInitializeOnLoadAttributes (305ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 251.1 MB.
+System memory in use after: 251.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2884.
+Total: 4.849421 ms (FindLiveObjects: 0.366087 ms CreateObjectMapping: 0.153041 ms MarkObjects: 4.301524 ms  DeleteObjects: 0.027512 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012223 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-19 20:52:38.046 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000067a990 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.231 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2232ms)
+		BeginReloadAssembly (233ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (46ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (1882ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (594ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (842ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (287ms)
+				ProcessInitializeOnLoadAttributes (517ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 251.3 MB.
+System memory in use after: 251.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2887.
+Total: 70.775810 ms (FindLiveObjects: 0.796747 ms CreateObjectMapping: 0.259782 ms MarkObjects: 69.575199 ms  DeleteObjects: 0.141659 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002249 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-19 20:54:23.138 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000603020 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.936 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1937ms)
+		BeginReloadAssembly (314ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (178ms)
+		EndReloadAssembly (1503ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (550ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (567ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (192ms)
+				ProcessInitializeOnLoadAttributes (352ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 251.5 MB.
+System memory in use after: 251.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2890.
+Total: 5.039928 ms (FindLiveObjects: 0.357077 ms CreateObjectMapping: 0.153647 ms MarkObjects: 4.495698 ms  DeleteObjects: 0.032207 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003021 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-19 20:55:04.987 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000006125a0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.190 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2190ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (1879ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (849ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (611ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (208ms)
+				ProcessInitializeOnLoadAttributes (382ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 251.7 MB.
+System memory in use after: 251.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2893.
+Total: 5.301198 ms (FindLiveObjects: 0.360937 ms CreateObjectMapping: 0.143268 ms MarkObjects: 4.768258 ms  DeleteObjects: 0.027047 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004613 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-19 20:55:34.993 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000006c0d90 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.989 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1989ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (1601ms)
+			LoadAssemblies (145ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (564ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (615ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (211ms)
+				ProcessInitializeOnLoadAttributes (383ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 251.9 MB.
+System memory in use after: 252.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2896.
+Total: 5.582363 ms (FindLiveObjects: 0.343226 ms CreateObjectMapping: 0.193466 ms MarkObjects: 5.012854 ms  DeleteObjects: 0.031099 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002425 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-19 20:56:09.079 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000604e00 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.267 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2268ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (1886ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (700ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (717ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (234ms)
+				ProcessInitializeOnLoadAttributes (461ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 252.1 MB.
+System memory in use after: 252.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2899.
+Total: 5.704323 ms (FindLiveObjects: 0.368605 ms CreateObjectMapping: 0.157352 ms MarkObjects: 5.147901 ms  DeleteObjects: 0.028951 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003538 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-19 20:57:01.335 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000618af0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.783 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2784ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (2516ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (936ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (155ms)
+			SetupLoadedEditorAssemblies (1018ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (336ms)
+				ProcessInitializeOnLoadAttributes (638ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 252.3 MB.
+System memory in use after: 252.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2902.
+Total: 5.406474 ms (FindLiveObjects: 0.363289 ms CreateObjectMapping: 0.125535 ms MarkObjects: 4.888684 ms  DeleteObjects: 0.027575 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 656.609472 seconds.
+  path: Assets/WeaponsPrefabs/ShutBullet.prefab
+  artifactKey: Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ShutBullet.prefab using Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99ee90c8bc450d8ba6388311dbdc50a') in 0.224026 seconds 
+  Import took 0.232523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.911327 seconds.
+  path: Assets/WeaponsPrefabs/ShutBullet.prefab
+  artifactKey: Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ShutBullet.prefab using Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4709a70f0336ca7190ee593f2a34968') in 0.021419 seconds 
+  Import took 0.029640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.357420 seconds.
+  path: Assets/WeaponsPrefabs/ShutBullet.prefab
+  artifactKey: Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ShutBullet.prefab using Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9ec79ae5c9bfb2997b4b8acc623a3d') in 0.020158 seconds 
+  Import took 0.034069 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005681 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-19 21:02:16.818 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000615570 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.880 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1881ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (1605ms)
+			LoadAssemblies (157ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (478ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (731ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (179ms)
+				ProcessInitializeOnLoadAttributes (520ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 252.5 MB.
+System memory in use after: 252.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2906.
+Total: 4.024097 ms (FindLiveObjects: 0.338321 ms CreateObjectMapping: 0.131967 ms MarkObjects: 3.529521 ms  DeleteObjects: 0.022509 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 169.245306 seconds.
+  path: Assets/WeaponsPrefabs/ImprovedWeapon.asset
+  artifactKey: Guid(d1a1955a9b5ac4d3ca57b422db460d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ImprovedWeapon.asset using Guid(d1a1955a9b5ac4d3ca57b422db460d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b56a812a7d831c0f44e56ae137a9c08') in 0.202380 seconds 
+  Import took 0.209170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/WeaponsPrefabs/ShutWeapon.asset
+  artifactKey: Guid(124c773b60241415991c173c0b8b62ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ShutWeapon.asset using Guid(124c773b60241415991c173c0b8b62ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4eee6eb9f81f14a351021f23daf9f0') in 0.014083 seconds 
+  Import took 0.021391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/WeaponsPrefabs/WaveWeapon.asset
+  artifactKey: Guid(075a2d4c82c08490391d1a2d4cb97729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/WaveWeapon.asset using Guid(075a2d4c82c08490391d1a2d4cb97729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae75266c74c6c8ad01971b072f9f3e9') in 0.008920 seconds 
+  Import took 0.016134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19812.703586 seconds.
+  path: Assets/WeaponsPrefabs/WaveBullet.prefab
+  artifactKey: Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/WaveBullet.prefab using Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0754efe5f203fd6addb9d115aae65560') in 0.441300 seconds 
+  Import took 0.624797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.532531 seconds.
+  path: Assets/WeaponsPrefabs/WaveBullet.prefab
+  artifactKey: Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/WaveBullet.prefab using Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df039a6f86ad235b95fce26e8ee90ec') in 0.063253 seconds 
+  Import took 0.087461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.331853 seconds.
+  path: Assets/WeaponsPrefabs/WaveBullet.prefab
+  artifactKey: Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/WaveBullet.prefab using Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6afabe8cbc512f8379c7cbb9f51ebc82') in 0.022622 seconds 
+  Import took 0.031097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.568919 seconds.
+  path: Assets/WeaponsPrefabs/WaveBullet.prefab
+  artifactKey: Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/WaveBullet.prefab using Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33f69f2d33c20167e56a7371abc5ba9') in 0.058923 seconds 
+  Import took 0.074001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.664837 seconds.
+  path: Assets/WeaponsPrefabs/ShutBullet.prefab
+  artifactKey: Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ShutBullet.prefab using Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b69ebb4dc17427934b1a3c8273afcb8') in 0.080277 seconds 
+  Import took 0.096574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.331975 seconds.
+  path: Assets/WeaponsPrefabs/WaveBullet.prefab
+  artifactKey: Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/WaveBullet.prefab using Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea9d3da9157767294351a45a44ceedc') in 0.044373 seconds 
+  Import took 0.061070 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005339 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-20 13:44:42.381 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000060e5a0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.610 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2612ms)
+		BeginReloadAssembly (280ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (156ms)
+		EndReloadAssembly (2174ms)
+			LoadAssemblies (277ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (705ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (804ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (58ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (260ms)
+				ProcessInitializeOnLoadAttributes (422ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (3ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.5 MB.
+System memory in use after: 253.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2910.
+Total: 4.070440 ms (FindLiveObjects: 0.334654 ms CreateObjectMapping: 0.106507 ms MarkObjects: 3.589144 ms  DeleteObjects: 0.039126 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.143785 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-20 13:46:10.458 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000683c60 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.777 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2778ms)
+		BeginReloadAssembly (231ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (109ms)
+		EndReloadAssembly (2402ms)
+			LoadAssemblies (213ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1175ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (111ms)
+			SetupLoadedEditorAssemblies (678ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (241ms)
+				ProcessInitializeOnLoadAttributes (415ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.7 MB.
+System memory in use after: 253.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2913.
+Total: 6.684999 ms (FindLiveObjects: 0.526508 ms CreateObjectMapping: 0.157444 ms MarkObjects: 5.969349 ms  DeleteObjects: 0.029343 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 289.891605 seconds.
+  path: Assets/WeaponAsset/weapons/3.png
+  artifactKey: Guid(8f74193e492e74043833e1f4d718e246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponAsset/weapons/3.png using Guid(8f74193e492e74043833e1f4d718e246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c7b4973dd5a4f70ba11ab3646a0259') in 0.294316 seconds 
+  Import took 0.300624 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007753 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-20 13:48:06.489 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000006112d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.854 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1855ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1585ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (653ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (524ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (190ms)
+				ProcessInitializeOnLoadAttributes (314ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.9 MB.
+System memory in use after: 254.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2917.
+Total: 5.602671 ms (FindLiveObjects: 0.397232 ms CreateObjectMapping: 0.166888 ms MarkObjects: 5.009642 ms  DeleteObjects: 0.027562 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013194 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-20 13:49:36.614 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000060c3f0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.347 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2348ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (2042ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (866ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (614ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (184ms)
+				ProcessInitializeOnLoadAttributes (410ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 254.1 MB.
+System memory in use after: 254.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2920.
+Total: 5.265027 ms (FindLiveObjects: 0.357433 ms CreateObjectMapping: 0.167928 ms MarkObjects: 4.712955 ms  DeleteObjects: 0.024453 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 543.957942 seconds.
+  path: Assets/dungeon16x16/tiles/wall/wall_top_right.png
+  artifactKey: Guid(7b15c44ed3bc1474faca6ec47e071709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dungeon16x16/tiles/wall/wall_top_right.png using Guid(7b15c44ed3bc1474faca6ec47e071709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3e2dc41c06b69eef59f40cda792f60') in 0.125089 seconds 
+  Import took 0.131888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/dungeon16x16/heroes/knight/weapon_sword_1.png
+  artifactKey: Guid(b75d99e5dc832cf439ebb8ec59df1196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dungeon16x16/heroes/knight/weapon_sword_1.png using Guid(b75d99e5dc832cf439ebb8ec59df1196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd117d1ec66f1550d737dcd8829e75fc1') in 0.017935 seconds 
+  Import took 0.027931 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006340 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-20 13:57:19.395 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000006675d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.757 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1757ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1510ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (616ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (502ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (164ms)
+				ProcessInitializeOnLoadAttributes (319ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 254.3 MB.
+System memory in use after: 254.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2924.
+Total: 4.319260 ms (FindLiveObjects: 0.387415 ms CreateObjectMapping: 0.136003 ms MarkObjects: 3.766385 ms  DeleteObjects: 0.027172 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006009 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-20 13:58:05.411 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000665f10 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.992 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1992ms)
+		BeginReloadAssembly (213ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1582ms)
+			LoadAssemblies (197ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (655ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (527ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (178ms)
+				ProcessInitializeOnLoadAttributes (325ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 254.5 MB.
+System memory in use after: 254.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2927.
+Total: 4.174862 ms (FindLiveObjects: 0.330189 ms CreateObjectMapping: 0.125083 ms MarkObjects: 3.696996 ms  DeleteObjects: 0.021401 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3073.260319 seconds.
+  path: Assets/WeaponsPrefabs/WaveBullet.prefab
+  artifactKey: Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/WaveBullet.prefab using Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7d95f73839201e78d0b63ac564c8fb') in 0.318414 seconds 
+  Import took 0.372934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.515408 seconds.
+  path: Assets/WeaponsPrefabs/WaveBullet.prefab
+  artifactKey: Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/WaveBullet.prefab using Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bc688433bad5727e92e6fa4aa29060') in 0.019123 seconds 
+  Import took 0.026254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020171 seconds.
+  path: Assets/WeaponsPrefabs/WaveBullet.prefab
+  artifactKey: Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/WaveBullet.prefab using Guid(881e33c2a54914978bae02210be8dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bc688433bad5727e92e6fa4aa29060') in 0.022696 seconds 
+  Import took 0.029164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.296789 seconds.
+  path: Assets/WeaponsPrefabs/ShutBullet.prefab
+  artifactKey: Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ShutBullet.prefab using Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3693d8c66c055b264a8e5c4477cdbcf2') in 0.024664 seconds 
+  Import took 0.032880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023561 seconds.
+  path: Assets/WeaponsPrefabs/ShutBullet.prefab
+  artifactKey: Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ShutBullet.prefab using Guid(61a7c810890b44102b4455e417cb1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3693d8c66c055b264a8e5c4477cdbcf2') in 0.017049 seconds 
+  Import took 0.025444 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014599 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-20 14:49:30.871 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000006ecee0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.906 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1907ms)
+		BeginReloadAssembly (278ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (157ms)
+		EndReloadAssembly (1497ms)
+			LoadAssemblies (200ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (483ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (587ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (178ms)
+				ProcessInitializeOnLoadAttributes (391ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 254.7 MB.
+System memory in use after: 254.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2931.
+Total: 4.095634 ms (FindLiveObjects: 0.401703 ms CreateObjectMapping: 0.115918 ms MarkObjects: 3.554111 ms  DeleteObjects: 0.022798 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 209.679847 seconds.
+  path: Assets/Weapon.cs
+  artifactKey: Guid(0dfc648c36ea7ab44994418c33edb022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapon.cs using Guid(0dfc648c36ea7ab44994418c33edb022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99fee0d5e747c1023ffec9122fb5cf8') in 0.014508 seconds 
+  Import took 0.020955 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006090 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-20 14:53:10.466 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000067ee60 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.800 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1801ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1565ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (591ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (544ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (193ms)
+				ProcessInitializeOnLoadAttributes (331ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 254.9 MB.
+System memory in use after: 255.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2934.
+Total: 4.565444 ms (FindLiveObjects: 0.452944 ms CreateObjectMapping: 0.142446 ms MarkObjects: 3.943972 ms  DeleteObjects: 0.024470 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004361 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-20 14:53:51.951 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000060e450 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.815 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1816ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (1533ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (481ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (665ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (182ms)
+				ProcessInitializeOnLoadAttributes (461ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 255.1 MB.
+System memory in use after: 255.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2937.
+Total: 11.728086 ms (FindLiveObjects: 1.386659 ms CreateObjectMapping: 0.744429 ms MarkObjects: 9.311823 ms  DeleteObjects: 0.283019 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007176 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-20 14:54:29.355 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000060f640 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.829 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1830ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (1567ms)
+			LoadAssemblies (182ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (608ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (529ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (169ms)
+				ProcessInitializeOnLoadAttributes (341ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 255.3 MB.
+System memory in use after: 255.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2940.
+Total: 4.527991 ms (FindLiveObjects: 0.354984 ms CreateObjectMapping: 0.139067 ms MarkObjects: 4.004472 ms  DeleteObjects: 0.027300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007529 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 8.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-20 14:55:26.111 Unity[28479:2305193] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000060d730 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.547 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3548ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (3174ms)
+			LoadAssemblies (175ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (652ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (131ms)
+			SetupLoadedEditorAssemblies (1292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (8ms)
+				BeforeProcessingInitializeOnLoad (696ms)
+				ProcessInitializeOnLoadAttributes (551ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 255.5 MB.
+System memory in use after: 255.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2943.
+Total: 3.730901 ms (FindLiveObjects: 0.314196 ms CreateObjectMapping: 0.102182 ms MarkObjects: 3.293319 ms  DeleteObjects: 0.020234 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 187.043294 seconds.
+  path: Assets/WeaponsPrefabs/ShutWeapon.asset
+  artifactKey: Guid(124c773b60241415991c173c0b8b62ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/ShutWeapon.asset using Guid(124c773b60241415991c173c0b8b62ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69513130a2187b67a96b1b2a29b9ff81') in 0.071834 seconds 
+  Import took 0.080803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/WeaponsPrefabs/WaveWeapon.asset
+  artifactKey: Guid(075a2d4c82c08490391d1a2d4cb97729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeaponsPrefabs/WaveWeapon.asset using Guid(075a2d4c82c08490391d1a2d4cb97729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f6270f834152d5aff167ab53395d48') in 0.007280 seconds 
+  Import took 0.016335 seconds .
+
