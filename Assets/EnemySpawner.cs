@@ -13,7 +13,7 @@ public class EnemySpawner : MonoBehaviour
     // Start is called before the first frame update
     public void Start()
     {
-        for (int n = enemies.Length; n <= 3; n ++)
+        for (int n = enemies.Length; n <= 1; n ++)
             StartCoroutine(SpawnAnEnemy());
         
     }
