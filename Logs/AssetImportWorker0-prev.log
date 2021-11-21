@@ -22,30 +22,50 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 57690
 Successfully changed project path to: /Users/shilongxin/Documents/GitHub/demo01.06
 /Users/shilongxin/Documents/GitHub/demo01.06
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 79.62 ms, found 3 plugins.
+=======
+59946
+Successfully changed project path to: /Users/shilongxin/Documents/GitHub/demo01.06
+/Users/shilongxin/Documents/GitHub/demo01.06
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 91.81 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/shilongxin/Documents/GitHub/demo01.06/Assets
 GfxDevice: creating device client; threaded=0
+<<<<<<< Updated upstream
 2021-11-20 15:34:27.116 Unity[61220:2657047] Color LCD preferred device: Intel(R) Iris(TM) Graphics 550 (low power)
 2021-11-20 15:34:27.116 Unity[61220:2657047] Metal devices available: 1
 2021-11-20 15:34:27.116 Unity[61220:2657047] 0: Intel(R) Iris(TM) Graphics 550 (low power)
 2021-11-20 15:34:27.117 Unity[61220:2657047] Using device Intel(R) Iris(TM) Graphics 550 (low power)
+=======
+2021-11-20 20:55:08.981 Unity[79691:2835097] Color LCD preferred device: Intel(R) Iris(TM) Graphics 550 (low power)
+2021-11-20 20:55:08.981 Unity[79691:2835097] Metal devices available: 1
+2021-11-20 20:55:08.981 Unity[79691:2835097] 0: Intel(R) Iris(TM) Graphics 550 (low power)
+2021-11-20 20:55:08.981 Unity[79691:2835097] Using device Intel(R) Iris(TM) Graphics 550 (low power)
+>>>>>>> Stashed changes
 Initializing Metal device caps: Intel(R) Iris(TM) Graphics 550
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56691
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.18f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+<<<<<<< Updated upstream
 Registered in 0.001320 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -56,11 +76,24 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (3876ms)
 		BeginReloadAssembly (67ms)
+=======
+Registered in 0.000998 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 97.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.365 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3366ms)
+		BeginReloadAssembly (92ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 		EndReloadAssembly (943ms)
 			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -75,12 +108,29 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (17ms)
 				ProcessInitializeOnLoadAttributes (137ms)
 				ProcessInitializeOnLoadMethodAttributes (40ms)
+=======
+		EndReloadAssembly (857ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (335ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (357ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+>>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.002134 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
@@ -112,13 +162,52 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (360ms)
 				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (2ms)
+=======
+Registered in 0.002447 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 104.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.911 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2912ms)
+		BeginReloadAssembly (516ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (2096ms)
+			LoadAssemblies (277ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (916ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (624ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (358ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (3ms)
+>>>>>>> Stashed changes
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
+<<<<<<< Updated upstream
 Validating Project structure ... 0.016480 seconds.
 Shader import version has changed; will reimport all shaders...
 Upgrading shader files ...0.016532 seconds.
+=======
+Validating Project structure ... 0.053916 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.017318 seconds.
+>>>>>>> Stashed changes
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -130,6 +219,7 @@ RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Initializing Unity extensions:
+<<<<<<< Updated upstream
 2021-11-20 15:34:34.703 Unity[61220:2657047] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000225ad80 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 2021-11-20 15:34:34.707 Unity[61220:2657047] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000226e3e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
@@ -239,8 +329,23 @@ Received Import Request.
   artifactKey: Guid(07c1180270580e540a34995fa60da17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Shader/DefaultColorFlash.shader using Guid(07c1180270580e540a34995fa60da17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310c54d2c8d76be8d66298d922ba0c82') in 0.115156 seconds 
   Import took 0.119483 seconds .
+=======
+2021-11-20 20:55:17.903 Unity[79691:2835097] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003e3ad10 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2021-11-20 20:55:17.909 Unity[79691:2835097] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003e18310 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.2 MB.
+System memory in use after: 231.3 MB.
+
+Unloading 99 unused Assets to reduce memory usage. Loaded Objects now: 2591.
+Total: 5.552023 ms (FindLiveObjects: 0.370687 ms CreateObjectMapping: 0.105909 ms MarkObjects: 4.462977 ms  DeleteObjects: 0.610942 ms)
+>>>>>>> Stashed changes
 
 ========================================================================
+<<<<<<< Updated upstream
 Received Import Request.
   Time since last request: 0.179973 seconds.
   path: Assets/Shader/DefaultColorFlash.shader
@@ -848,4 +953,12 @@ Received Import Request.
 Start importing Assets/Tiles/Overworld_58.asset using Guid(e9a5e5a16ff23f843bb8af589fdb9e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87be65d4474e3c88590bee86e8a2d705') in 0.015605 seconds 
   Import took 0.021795 seconds .
 
+=======
+Received Import Request.
+  path: Assets/Bullet.prefab
+  artifactKey: Guid(56017504d331f4fc49257b989e37ee1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullet.prefab using Guid(56017504d331f4fc49257b989e37ee1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249dbf3e186606715ba1a6d4de9b7996') in 0.351508 seconds 
+  Import took 0.358794 seconds .
+
+>>>>>>> Stashed changes
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
