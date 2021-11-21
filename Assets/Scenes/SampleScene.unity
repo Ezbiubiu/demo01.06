@@ -877,7 +877,8 @@ MonoBehaviour:
   roomLayer:
     serializedVersion: 2
     m_Bits: 128
-  rooms: []
+  rooms:
+  - {fileID: 0}
   wallType:
     singleLeft: {fileID: 7800630222796873504, guid: ba32c2cdbd6b65342a0913d3ca845eb8, type: 3}
     singleRight: {fileID: 7800630222796873504, guid: 3308e8b7339072c4bbc2f90979484fb2, type: 3}
@@ -1071,7 +1072,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!114 &2062042875
 MonoBehaviour:
