@@ -878,8 +878,7 @@ MonoBehaviour:
   roomLayer:
     serializedVersion: 2
     m_Bits: 128
-  rooms:
-  - {fileID: 0}
+  rooms: []
   wallType:
     singleLeft: {fileID: 7800630222796873504, guid: ba32c2cdbd6b65342a0913d3ca845eb8, type: 3}
     singleRight: {fileID: 7800630222796873504, guid: 3308e8b7339072c4bbc2f90979484fb2, type: 3}
@@ -1156,7 +1155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dce27b83cead114fa04e783403c13e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentWeapon: {fileID: 11400000, guid: 124c773b60241415991c173c0b8b62ba, type: 2}
+  currentWeapon: {fileID: 11400000, guid: d1a1955a9b5ac4d3ca57b422db460d19, type: 2}
   speed: 5
   animator: {fileID: 2081164109}
   bullet: {fileID: 138893028201929186, guid: 44ec1a56a108008408fec4fdf5f43c39, type: 3}
