@@ -13,7 +13,7 @@ public class EnemySpawner : MonoBehaviour
     // Start is called before the first frame update
     public void Start()
     {
-        for (int n = enemies.Length; n <= 10; n ++)
+        for (int n = enemies.Length; n <= 3; n ++)
             StartCoroutine(SpawnAnEnemy());
         
     }
@@ -28,7 +28,7 @@ public class EnemySpawner : MonoBehaviour
         yield return new WaitForSeconds(time);
         Instantiate(enemies[Random.Range(0, enemies.Length)], spawnPos, Quaternion.identity);
 
-        // StartCoroutine(SpawnAnEnemy());
+        StartCoroutine(SpawnAnEnemy());
 
     }
 }
