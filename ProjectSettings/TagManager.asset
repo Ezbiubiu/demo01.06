@@ -3,14 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Bullet
-  - Enemy
-<<<<<<< Updated upstream
-=======
-  - health
-  - weapon
->>>>>>> Stashed changes
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -19,8 +12,8 @@ TagManager:
   - Water
   - UI
   - 
-  - Room
-  - SolidObjects
+  - 
+  - 
   - 
   - 
   - 
@@ -47,19 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Background
-    uniqueID: 3206457635
-    locked: 0
-  - name: Foreground
-    uniqueID: 3851595251
-    locked: 0
-  - name: Ground
-    uniqueID: 816456957
-    locked: 0
-  - name: Door
-    uniqueID: 2007139569
-    locked: 0
-  - name: Player
-    uniqueID: 1489299631
     locked: 0
