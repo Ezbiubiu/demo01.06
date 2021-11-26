@@ -91,13 +91,13 @@ public class PlayerMovement : MonoBehaviour
         hit = true;
     }
 
-    private void OnColliderEnter (Collider2D target)
+    private void OnColliderEnter2D (Collider2D target) //OnTriggerEnter  OnColliderEnter
     {
         if (target.tag == "Enemy")
         {
             //击退效果 repel effect
-            Vector2 difference = target.transform.position - transform.position;  // 击退角度 repel angel
-            gameObject.transform.position = new Vector2(gameObject.transform.position.x + difference.x, gameObject.transform.position.y + difference.y); //击退距离 repel distance
+            // Vector2 difference = target.transform.position - transform.position;  // 击退角度 repel angel
+            // gameObject.transform.position = new Vector2(gameObject.transform.position.x + difference.x, gameObject.transform.position.y + difference.y); //击退距离 repel distance
             if (hit)
             {
                 

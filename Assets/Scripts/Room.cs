@@ -11,6 +11,14 @@ public class Room : MonoBehaviour
     public Text text;
     public int doorNumber;
 
+
+
+//*****************************************************************************
+    [SerializeField]
+    private float spawnRadius = 4, time = 15.5f;
+
+    public GameObject[] enemies;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +26,8 @@ public class Room : MonoBehaviour
         doorRight.SetActive(roomRight);
         doorUp.SetActive(roomUp);
         doorDown.SetActive(roomDown);
+
+        
     }
 
     public void UpdateRoom(float xOffset, float yOffset)
@@ -44,6 +54,23 @@ public class Room : MonoBehaviour
         {
             CameraPos.instance.ChangeTarget(transform);
             // GetComponent<EnemySpawner>().Start();
+            for (int n = enemies.Length; n <= 3; n ++)
+                StartCoroutine(SpawnAnEnemy());
         }
+
     }
+
+
+    IEnumerator SpawnAnEnemy()
+    {
+        Vector2 spawnPos = gameObject.transform.position;
+        spawnPos += Random.insideUnitCircle.normalized * spawnRadius;
+
+        yield return new WaitForSeconds(time);
+        Instantiate(enemies[Random.Range(0, enemies.Length)], spawnPos, Quaternion.identity);
+
+        // StartCoroutine(SpawnAnEnemy());
+
+    }
+
 }
