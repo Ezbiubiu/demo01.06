@@ -43,6 +43,7 @@ public class Room : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             CameraPos.instance.ChangeTarget(transform);
+            // GetComponent<EnemySpawner>().Start();
         }
     }
 }

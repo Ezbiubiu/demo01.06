@@ -24,6 +24,10 @@ public class PlayerMovement : MonoBehaviour
     private bool hit = true;
 
 
+     AudioSource m_shootingSound;
+    private float m_shootingSound1;
+
+
 
     [Header("Hurt")]
     private SpriteRenderer sp;
@@ -35,6 +39,8 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         sp = GetComponent<SpriteRenderer>();
+        transform.GetChild(0).GetChild(0).GetComponent<SpriteRenderer>().sprite = currentWeapon.currentWeaponSpr;
+        m_shootingSound = GetComponent<AudioSource>();
 
     }
 
@@ -58,7 +64,9 @@ public class PlayerMovement : MonoBehaviour
         {
             if (Time.time >= nextTimeOfFire)
             {
+                m_shootingSound.Play();
                 currentWeapon.Shoot();
+                m_shootingSound1 = Time.time + 1 / currentWeapon.fireRate;
                 nextTimeOfFire = Time.time + 1 / currentWeapon.fireRate;
             }
         }
