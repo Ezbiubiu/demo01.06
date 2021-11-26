@@ -91,12 +91,13 @@ public class PlayerMovement : MonoBehaviour
         hit = true;
     }
 
-    private void OnColliderEnter2D (Collider2D target) //OnTriggerEnter  OnColliderEnter
+    private void OnColliderEnter2D (Collision2D target) //OnTriggerEnter  OnColliderEnter
     {
-        if (target.tag == "Enemy")
+        if (target.gameObject.tag == "Enemy")
         {
-            //击退效果 repel effect
-            // Vector2 difference = target.transform.position - transform.position;  // 击退角度 repel angel
+            Debug.Log("ABC");
+            // repel effect
+            // Vector2 difference = target.transform.position - transform.position;  //  repel angel
             // gameObject.transform.position = new Vector2(gameObject.transform.position.x + difference.x, gameObject.transform.position.y + difference.y); //击退距离 repel distance
             if (hit)
             {
@@ -113,10 +114,10 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void HurtShader() //受伤闪光 object flash after hurted
+    private void HurtShader() // object flash after hurted
     {
         sp.material.SetFloat("_FlashAmount", 1); 
-        hurtAmount = hurtLength; //可调节闪光时间 control flash time length by control "hurtLength"
+        hurtAmount = hurtLength; // control flash time length by control "hurtLength"
     }
 
 
