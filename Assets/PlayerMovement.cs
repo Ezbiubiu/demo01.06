@@ -18,10 +18,10 @@ public class PlayerMovement : MonoBehaviour
 
     public GameObject bullet;
 
-    [SerializeField]
-    private int health;
+    //[SerializeField]
+    //private int health;
 
-    private bool hit = true;
+    //private bool hit = true;
 
 
 
@@ -78,40 +78,40 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    IEnumerator HitBoxoff() 
-    {
-        hit = false;
-        yield return new WaitForSeconds(1.5f);
-        hit = true;
-    }
+    // IEnumerator HitBoxoff() 
+    // {
+    //     hit = false;
+    //     yield return new WaitForSeconds(1.5f);
+    //     hit = true;
+    // }
 
-    private void OnColliderEnter (Collider2D target)
-    {
-        if (target.tag == "Enemy")
-        {
-            //击退效果 repel effect
-            Vector2 difference = target.transform.position - transform.position;  // 击退角度 repel angel
-            gameObject.transform.position = new Vector2(gameObject.transform.position.x + difference.x, gameObject.transform.position.y + difference.y); //击退距离 repel distance
-            if (hit)
-            {
+    // private void OnTriggerEnter2D (Collider2D target)
+    // {
+    //     if (target.tag == "Enemy")
+    //     {
+    //         //击退效果 repel effect
+    //         Vector2 difference = target.transform.position - transform.position;  // 击退角度 repel angel
+    //         gameObject.transform.position = new Vector2(gameObject.transform.position.x + difference.x, gameObject.transform.position.y + difference.y); //击退距离 repel distance
+    //         if (hit)
+    //         {
                 
-                if(health >= 1)
-                {
-                    StartCoroutine(HitBoxoff());
-                    health--;
-                    HurtShader(); // BUG: will become "COLOR:PINK" for all the time after get hit by once!!!
-                }else{
-                    Destroy(gameObject); //Player has been killed
-                }
-            }
-        }
-    }
+    //             if(health >= 1)
+    //             {
+    //                 StartCoroutine(HitBoxoff());
+    //                 health--;
+    //                 HurtShader(); // BUG: will become "COLOR:PINK" for all the time after get hit by once!!!
+    //             }else{
+    //                 Destroy(gameObject); //Player has been killed
+    //             }
+    //         }
+    //     }
+    // }
 
-    private void HurtShader() //受伤闪光 object flash after hurted
-    {
-        sp.material.SetFloat("_FlashAmount", 1); 
-        hurtAmount = hurtLength; //可调节闪光时间 control flash time length by control "hurtLength"
-    }
+    // private void HurtShader() //受伤闪光 object flash after hurted
+    // {
+    //     sp.material.SetFloat("_FlashAmount", 1); 
+    //     hurtAmount = hurtLength; //可调节闪光时间 control flash time length by control "hurtLength"
+    // }
 
 
 }
