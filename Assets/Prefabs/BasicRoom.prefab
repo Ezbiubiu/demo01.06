@@ -2515,7 +2515,7 @@ GameObject:
   - component: {fileID: 9133439679641830126}
   m_Layer: 7
   m_Name: BasicRoom
-  m_TagString: Untagged
+  m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2637,6 +2637,10 @@ MonoBehaviour:
   stepToStart: 0
   text: {fileID: 1697163146825182185}
   doorNumber: 0
+  spawnRadius: 3
+  time: 0.5
+  enemies:
+  - {fileID: 8902917821423045458, guid: 6bfe1a1de48ba054cb757dc8dcf81a97, type: 3}
 --- !u!1 &6245999947066360273
 GameObject:
   m_ObjectHideFlags: 0
@@ -2694,7 +2698,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 2007139569
+  m_SortingLayerID: -1088509661
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &8658175034715193425

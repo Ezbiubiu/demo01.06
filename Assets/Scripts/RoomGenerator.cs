@@ -55,6 +55,7 @@ public class RoomGenerator : MonoBehaviour
 
         FindEndRoom();
         endRoom.GetComponent<SpriteRenderer>().color = endColor;
+        Instantiate(wallType.boss, endRoom.transform.position, Quaternion.identity); // put the BOSS at the endroom
 
 
     }
@@ -182,6 +183,8 @@ public class RoomGenerator : MonoBehaviour
             endRoom = farRooms[Random.Range(0, farRooms.Count)];
         }
     }
+
+
 }
 
 [System.Serializable]
@@ -190,5 +193,5 @@ public class WallType
     public GameObject singleLeft, singleRight, singleUp, singleBottom,
                       doubleLU, doubleLR, doubleLB, doubleUR, doubleUB, doubleRB,
                         tripleLUR, tripleLUB, tripleURB, tripleLRB,
-                        fourDoors;
+                        fourDoors, boss;
 }
