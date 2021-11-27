@@ -10,7 +10,8 @@ public class IntoRoom: MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            
+           
+
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
         
         }
