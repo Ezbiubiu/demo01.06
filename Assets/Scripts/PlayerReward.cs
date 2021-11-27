@@ -5,9 +5,12 @@ using UnityEngine.UI;
 
 public class PlayerReward : MonoBehaviour
 {
-    [SerializeField] public int hp = 3;
+    [SerializeField] public int hp;
     public Text healthNum;
-
+    private void Start()
+    {
+        hp = GlobalControl.Instance.reward;
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
     
@@ -16,6 +19,7 @@ public class PlayerReward : MonoBehaviour
             Destroy(collision.gameObject);
             hp += 1;
             healthNum.text = hp.ToString();
+            GlobalControl.Instance.reward = hp;
         }
     }
 

@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
-{   
+{
     [SerializeField]
-    public float health = 0f;
+    public float health;
     [SerializeField]
-    public float maxHealth = 100f;
+    public float maxHealth;
 
     private void Start(){
-        health = maxHealth;
+        health = GlobalControl.Instance.HP;
     }
 
     public void UpdateHealth(float mod){
@@ -22,6 +22,9 @@ public class PlayerHealth : MonoBehaviour
             health = 0f;
             Debug.Log("Player Respawn");
         }
+        Debug.Log("Player saved");
+        GlobalControl.Instance.HP = health;
 
     }
+  
 }
