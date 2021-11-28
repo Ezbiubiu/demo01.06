@@ -258,3 +258,4 @@ Received Import Request.
 Start importing Assets/BossBehavior.cs using Guid(7dd1f055306434ab0a461b7efe152c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2caade7fe58ca4478f57aba0af9cee63') in 0.016681 seconds 
   Import took 0.077007 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
