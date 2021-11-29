@@ -17,7 +17,7 @@ public class BulletMovement : MonoBehaviour
         dir = GameObject.Find("Dir").transform.position;
         transform.position = GameObject.Find("FirePoint").transform.position;
         Destroy(gameObject,1);
-        transform.eulerAngles = new Vector3(0,0,GameObject.Find("Player").transform.eulerAngles.z);
+        transform.eulerAngles = new Vector3(0,0,GameObject.Find("Dir").transform.eulerAngles.z);
         
     }
 
