@@ -131,16 +131,21 @@ public class RoomGenerator : MonoBehaviour
             case 3:
                 if (newRoom.roomLeft && newRoom.roomUp && newRoom.roomRight)
                     Instantiate(wallType.tripleLUR, roomPosition, Quaternion.identity);
+                    //Instantiate(wallType.waveW, roomPosition, Quaternion.identity);
                 if (newRoom.roomLeft && newRoom.roomRight && newRoom.roomDown)
                     Instantiate(wallType.tripleLRB, roomPosition, Quaternion.identity);
+                    //Instantiate(wallType.waveW, roomPosition, Quaternion.identity);
                 if (newRoom.roomDown && newRoom.roomUp && newRoom.roomRight)
                     Instantiate(wallType.tripleURB, roomPosition, Quaternion.identity);
+                    //Instantiate(wallType.waveW, roomPosition, Quaternion.identity);
                 if (newRoom.roomLeft && newRoom.roomUp && newRoom.roomDown)
                     Instantiate(wallType.tripleLUB, roomPosition, Quaternion.identity);
+                    //Instantiate(wallType.waveW, roomPosition, Quaternion.identity);
                 break;
             case 4:
                 if (newRoom.roomLeft && newRoom.roomUp && newRoom.roomRight && newRoom.roomDown)
                     Instantiate(wallType.fourDoors, roomPosition, Quaternion.identity);
+                    Instantiate(wallType.waveW, roomPosition, Quaternion.identity);
                 break;
         }
     }
@@ -193,5 +198,5 @@ public class WallType
     public GameObject singleLeft, singleRight, singleUp, singleBottom,
                       doubleLU, doubleLR, doubleLB, doubleUR, doubleUB, doubleRB,
                         tripleLUR, tripleLUB, tripleURB, tripleLRB,
-                        fourDoors, boss;
+                        fourDoors, boss,waveW;
 }
