@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8209864738427915669}
   - component: {fileID: 6194949498974524768}
   - component: {fileID: 3772690976714900879}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: WaveWeapon
   m_TagString: weapon
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 0.4375, y: 0.25}
-  m_EdgeRadius: 10
+  m_EdgeRadius: 0
 --- !u!114 &3772690976714900879
 MonoBehaviour:
   m_ObjectHideFlags: 0
