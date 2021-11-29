@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: WaveWeapon
   m_EditorClassIdentifier: 
   currentWeaponSpr: {fileID: 21300000, guid: 8b2240919a0274b9f898dea87fdcf9ee, type: 3}
-  bulletPrefab: {fileID: 5674172513068600918, guid: 881e33c2a54914978bae02210be8dfc6, type: 3}
+  bulletPrefab: {fileID: 472698333786425528, guid: 881e33c2a54914978bae02210be8dfc6, type: 3}
   fireRate: 1
   damage: 40

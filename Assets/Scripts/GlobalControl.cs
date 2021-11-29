@@ -8,13 +8,11 @@ public class GlobalControl : MonoBehaviour
     public static GlobalControl Instance;
     public float HP;
     public int reward;
-    public Weapon currentWeapon;
     void Awake()
     {
         Debug.Log("GC awake");
         HP = 100;
         reward = 0;
-
         if (Instance == null)
         {
             DontDestroyOnLoad(gameObject);
