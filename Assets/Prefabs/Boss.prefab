@@ -13,8 +13,6 @@ GameObject:
   - component: {fileID: 2149412648483782766}
   - component: {fileID: 2149412648483782767}
   - component: {fileID: 2149412648483782764}
-  - component: {fileID: 2149412648483782752}
-  - component: {fileID: 2149412648483782753}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Enemy
@@ -153,30 +151,3 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &2149412648483782752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2149412648483782763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e466521453943d42831e34e36a9643c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
-  hurtLength: 0
---- !u!114 &2149412648483782753
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2149412648483782763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9d51960748dbf8419f7b3158b007b86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
