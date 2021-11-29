@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHealth : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
     [SerializeField]
     private float health;
@@ -102,7 +102,7 @@ public class EnemyHealth : MonoBehaviour
         if (health < 1)
         {
             enemyRBs.Remove(rb);
-            deathAnimator.Play("Death");             
+            deathAnimator.SetInteger("AnimState", 1);             
             Destroy(gameObject);
         }
     }
