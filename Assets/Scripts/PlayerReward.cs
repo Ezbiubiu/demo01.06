@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class PlayerReward : MonoBehaviour
 {
     [SerializeField] 
-    //public int hp;
-    //public Text healthNum;
+    public int key;
+    public Text KeyNum;
     private PlayerHealth playerHealth;
     private void Awake()
     {
@@ -15,7 +15,7 @@ public class PlayerReward : MonoBehaviour
     }
     private void Start()
     {
-        //hp = GlobalControl.Instance.reward;
+        // key = GlobalControl.Instance.reward;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -29,11 +29,18 @@ public class PlayerReward : MonoBehaviour
             //healthNum.text = hp.ToString();
             //GlobalControl.Instance.reward = hp;
         }
+        if (collision.tag == "Collection")
+        {
+            Destroy(collision.gameObject);
+            key += 1;
+            KeyNum.text = key.ToString();
+            // GlobalControl.Instance.reward = key;
+        }
     }
 
     void Update()
     {
-        //healthNum.text = hp.ToString(); // Object reference not set to an instance of an object
+        KeyNum.text = key.ToString(); // Object reference not set to an instance of an object
         
     }
 
