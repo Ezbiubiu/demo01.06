@@ -19,6 +19,9 @@ public class BossBehavior1 : MonoBehaviour
     [SerializeField]
     private float attackSpeed = 1f;
     private float canAttack;
+    
+    public Animator animator;
+    
 
     private void Awake()
     {
@@ -31,8 +34,6 @@ public class BossBehavior1 : MonoBehaviour
 
     }
 
-
-
     // Update is called once per frame
     void Update()
     {
@@ -44,6 +45,7 @@ public class BossBehavior1 : MonoBehaviour
 
         if (Vector2.Distance(transform.position, playerPos.position) > 0.1f)
         {
+            animator.SetFloat("walking", speed);
             rb.velocity = new Vector2(playerPos.position.x - enemyPos.position.x, playerPos.position.y - enemyPos.position.y).normalized * speed;  // playerPos.position - transform.position
         }
 
@@ -58,7 +60,7 @@ public class BossBehavior1 : MonoBehaviour
         {
 
             health -= GameObject.Find("Player").GetComponent<PlayerMovement>().currentWeapon.damage;
-
+            
             Destroy(other.gameObject);
         }
     }
@@ -69,6 +71,7 @@ public class BossBehavior1 : MonoBehaviour
         {
             if (attackSpeed <= canAttack)
             {
+                animator.Play("Attack");
                 other.gameObject.GetComponent<PlayerHealth>().UpdateHealth(-attackDamage);
                 canAttack = 0f;
             }
