@@ -22,6 +22,8 @@ public class EnemyHealth : MonoBehaviour
     public float hurtLength; //flash hold time
     private float hurtAmount; // counter 
 
+    public Animator animator;
+
 
     private void Awake()
     {
@@ -47,7 +49,9 @@ public class EnemyHealth : MonoBehaviour
 
         if (health < 1)
         {
-            enemyRBs.Remove(rb);             
+            animator.SetTrigger("Death");
+            enemyRBs.Remove(rb);
+            
             Destroy(gameObject);
         }
 

@@ -263,6 +263,58 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 2149412648483782764, guid: 2fd8595437680cc459010ea12ebe0050, type: 3}
   m_PrefabInstance: {fileID: 322074773}
   m_PrefabAsset: {fileID: 0}
+--- !u!60 &259090382
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259090379}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.375, y: 2.90625}
+    newSize: {x: 4.375, y: 2.90625}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1, y: -1.078125}
+      - {x: 1, y: -1.140625}
+      - {x: 1.15625, y: -1.453125}
+      - {x: 1.65625, y: -1.453125}
+      - {x: 1.8125, y: -0.859375}
+      - {x: 1.8125, y: -0.640625}
+      - {x: 1.6875, y: 0.078125}
+      - {x: 1.21875, y: 0.328125}
+      - {x: 0.84375, y: 0.328125}
+      - {x: 0.46875, y: -0.234375}
+      - {x: 0.4375, y: -0.515625}
+      - {x: 0.4375, y: -0.890625}
+      - {x: 0.59375, y: -0.921875}
+      - {x: 0.75, y: -0.859375}
+      - {x: 0.78125, y: -0.640625}
+      - {x: 0.8125, y: -0.640625}
+      - {x: 0.6875, y: -1.109375}
+      - {x: 0.5625, y: -1.453125}
+      - {x: 1.03125, y: -1.453125}
+      - {x: 1.03125, y: -1.296875}
+      - {x: 1, y: -1.265625}
+    - - {x: 1.4375, y: -0.515625}
+      - {x: 1.40625, y: -0.484375}
+      - {x: 1.40625, y: -0.515625}
+      - {x: 1.46875, y: -0.484375}
+      - {x: 1.46875, y: -0.609375}
+      - {x: 1.4375, y: -0.578125}
 --- !u!1001 &322074773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -318,7 +370,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2149412648483782766, guid: 2fd8595437680cc459010ea12ebe0050, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2149412648483782766, guid: 2fd8595437680cc459010ea12ebe0050, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2fd8595437680cc459010ea12ebe0050, type: 3}
 --- !u!1001 &562503419
 PrefabInstance:

@@ -146,6 +146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
+  animator: {fileID: 8902917821423045468}
 --- !u!114 &3701456831434255096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,6 +161,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 80
   hurtLength: 0.1
+  animator: {fileID: 8902917821423045468}
 --- !u!50 &3709550467483036728
 Rigidbody2D:
   serializedVersion: 4
@@ -195,3 +197,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackDamage: 10
   attackSpeed: 1
+  animator: {fileID: 8902917821423045468}
