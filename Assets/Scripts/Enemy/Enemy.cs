@@ -12,11 +12,7 @@ public class Enemy : MonoBehaviour
 
 //*********** animators *****************
 
-    [SerializeField] Animator walkAnimator;
-
-    [SerializeField] Animator attackAnimator;
-
-    [SerializeField] Animator deathAnimator;
+    [SerializeField] Animator animator;
 
 
 //************ enemy colliders List **********************
@@ -101,8 +97,9 @@ public class Enemy : MonoBehaviour
 
         if (health < 1)
         {
+            
             enemyRBs.Remove(rb);
-            deathAnimator.SetInteger("AnimState", 1);             
+            // deathAnimator.SetInteger("AnimState", 1);             
             Destroy(gameObject);
         }
     }
@@ -111,7 +108,7 @@ public class Enemy : MonoBehaviour
     private void OnCollisionStay2D(Collision2D other){
         if(other.gameObject.tag == "Player"){
             if(attackSpeed <= canAttack){
-                attackAnimator.Play("Attack");
+                // attackAnimator.Play("Attack");
                 other.gameObject.GetComponent<PlayerHealth>().UpdateHealth(-attackDamage);
                 canAttack = 0f;
             }else{
