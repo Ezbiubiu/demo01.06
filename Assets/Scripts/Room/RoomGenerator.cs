@@ -118,17 +118,28 @@ public class RoomGenerator : MonoBehaviour
             case 2:
                 if (newRoom.roomLeft && newRoom.roomUp)
                     Instantiate(wallType.doubleLU, roomPosition, Quaternion.identity);
+                    Instantiate(wallType.Key, roomPosition + new Vector3(3, 3, 0), Quaternion.identity);
+
                 if (newRoom.roomLeft && newRoom.roomRight)
                     Instantiate(wallType.doubleLR, roomPosition, Quaternion.identity);
+                    Instantiate(wallType.Key, roomPosition + new Vector3(3, 3, 0), Quaternion.identity);
+
                 if (newRoom.roomLeft && newRoom.roomDown)
                     Instantiate(wallType.doubleLB, roomPosition, Quaternion.identity);
+                    Instantiate(wallType.Key, roomPosition + new Vector3(3, 3, 0), Quaternion.identity);
 
                 if (newRoom.roomUp && newRoom.roomRight)
                     Instantiate(wallType.doubleUR, roomPosition, Quaternion.identity);
+                    Instantiate(wallType.Key, roomPosition + new Vector3(3, 3, 0), Quaternion.identity);
+
                 if (newRoom.roomUp && newRoom.roomDown)
                     Instantiate(wallType.doubleUB, roomPosition, Quaternion.identity);
+                    Instantiate(wallType.Key, roomPosition + new Vector3(3, 3, 0), Quaternion.identity);
+
                 if (newRoom.roomRight && newRoom.roomDown)
                     Instantiate(wallType.doubleRB, roomPosition, Quaternion.identity);
+                    Instantiate(wallType.Key, roomPosition + new Vector3(3, 3, 0), Quaternion.identity);
+
                 break;
             case 3:
                 if (newRoom.roomLeft && newRoom.roomUp && newRoom.roomRight)
@@ -197,5 +208,5 @@ public class WallType
     public GameObject singleLeft, singleRight, singleUp, singleBottom,
                       doubleLU, doubleLR, doubleLB, doubleUR, doubleUB, doubleRB,
                         tripleLUR, tripleLUB, tripleURB, tripleLRB,
-                        fourDoors, boss, waveW, shutW,improW;
+                        fourDoors, boss, waveW, shutW,improW, Key;
 }

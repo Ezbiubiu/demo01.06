@@ -12,11 +12,11 @@ public class PlayerReward : MonoBehaviour
     private void Awake()
     {
         playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>();
-    }
-    private void Start()
-    {
         // key = GlobalControl.Instance.reward;
+
     }
+ 
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
     
@@ -40,7 +40,7 @@ public class PlayerReward : MonoBehaviour
 
     void Update()
     {
-        KeyNum.text = key.ToString(); // Object reference not set to an instance of an object
+        KeyNum.text = key.ToString(); // Object reference not set to an instance of an object！！！！！！！！！！！！！！！！
         
     }
 
