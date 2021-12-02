@@ -34,8 +34,6 @@ public class BossBehavior1 : MonoBehaviour
 
     }
 
-
-
     // Update is called once per frame
     void Update()
     {
@@ -45,10 +43,6 @@ public class BossBehavior1 : MonoBehaviour
             Destroy(gameObject);
         }
 
-
-
-        
-        
         if (Vector2.Distance(transform.position, playerPos.position) > 0.1f)
         {
             animator.SetFloat("walking", speed);
