@@ -6,7 +6,7 @@ public class Enter : MonoBehaviour
 
 
     public GameObject e;
-    // public GameObject n;
+    public GameObject needs;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
@@ -16,12 +16,12 @@ public class Enter : MonoBehaviour
         
           
     }
-    // void OnTriggerExit2D(Collider2D collision)
-    // {
-    //     if (collision.tag == "Player")
-    //     {
-    //         e.SetActive(false);
-    //         n.SetActive(false);
-    //     }
-    // }
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            e.SetActive(false);
+            needs.SetActive(false);
+        }
+    }
 }
