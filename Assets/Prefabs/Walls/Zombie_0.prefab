@@ -165,9 +165,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 80
-  animator: {fileID: 0}
+  animator: {fileID: 8902917821423045468}
   hurtLength: 0.1
   attackDamage: 10
   attackSpeed: 1
   speed: 2
-  damageCanvas: {fileID: 9049561013245760744, guid: f9b6307f47d819d45b8fcce6ba38f25c, type: 3}
+  damageCanvas: {fileID: 5662815696695147029, guid: 620782f87ca49e848a1222fb537fd801, type: 3}

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerReward : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public class PlayerReward : MonoBehaviour
     public int key;
     public Text KeyNum;
     private PlayerHealth playerHealth;
+
+
+    
     private void Awake()
     {
         playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>();
@@ -39,6 +43,7 @@ public class PlayerReward : MonoBehaviour
 
         if (collision.tag == "BossPortal")
         {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-1);
             //boss room portal !!!
             Destroy(collision.gameObject);
 
@@ -50,6 +55,5 @@ public class PlayerReward : MonoBehaviour
         KeyNum.text = key.ToString(); // Object reference not set to an instance of an object！！！！！！！！！！！！！！！！
         
     }
-
    
 }
