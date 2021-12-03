@@ -12,6 +12,8 @@ public class PlayerReward : MonoBehaviour
     private PlayerHealth playerHealth;
 
 
+    // public Animator BoxAnimator;
+
     
     private void Awake()
     {
@@ -43,6 +45,7 @@ public class PlayerReward : MonoBehaviour
 
         if (collision.tag == "BossPortal")
         {
+            // Instantiate(BoxAnimator, collision.transform.position, Quaternion.identity);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-1);
             //boss room portal !!!
             Destroy(collision.gameObject);

@@ -11,7 +11,7 @@ public class DropGift : MonoBehaviour
     {
         Vector3 pos = transform.position;
         Instantiate(gos[Random.Range(0, gos.Length)], pos, Quaternion.identity);
-        GlobalControl.Instance.level++;
+        // GlobalControl.Instance.level++;
         //Debug.Log("level" + GlobalControl.Instance.level);
     }
 }
