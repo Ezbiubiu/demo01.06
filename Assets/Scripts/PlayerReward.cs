@@ -40,9 +40,8 @@ public class PlayerReward : MonoBehaviour
         if (collision.tag == "BossPortal")
         {
             //boss room portal !!!
+            Destroy(collision.gameObject);
 
-
-            
         }
     }
 
