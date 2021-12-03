@@ -14,10 +14,8 @@ public class BossBehavior1 : MonoBehaviour
     private Rigidbody2D rb;
 
 
-    [SerializeField]
-    private float attackDamage = 10f;
-    [SerializeField]
-    private float attackSpeed = 1f;
+    [SerializeField] float attackDamage = 10f;
+    [SerializeField] float attackSpeed = 1f;
     private float canAttack;
     
     public Animator animator;
@@ -82,4 +80,5 @@ public class BossBehavior1 : MonoBehaviour
             }
         }
     }
+
 }
