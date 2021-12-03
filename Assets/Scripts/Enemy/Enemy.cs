@@ -4,19 +4,15 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField]
-    private float health;
+    
+    public float health;
 
-    private float MaxHealth;
+    public float MaxHealth;
 
 
-//*********** animators *****************
+    //*********** animators *****************
 
-    [SerializeField] Animator walkAnimator;
-
-    [SerializeField] Animator attackAnimator;
-
-    [SerializeField] Animator deathAnimator;
+    public Animator animator;
 
 
 //************ enemy colliders List **********************
@@ -78,7 +74,8 @@ public class Enemy : MonoBehaviour
         //follow
         if (Vector2.Distance(transform.position, playerPos.position) < 10f  && Vector2.Distance(transform.position,playerPos.position) > 0.1f) // enemy will stay if distance longer than 10f
         {// enemy will not be inside your body
-                // transform.position = Vector2.MoveTowards(transform.position, playerPos.position, speed * Time.deltaTime); 
+         // transform.position = Vector2.MoveTowards(transform.position, playerPos.position, speed * Time.deltaTime); 
+                animator.SetInteger("AnimState", 1);
                 Vector2 vt = new Vector2(playerPos.position.x - enemyPos.position.x, playerPos.position.y - enemyPos.position.y);
                 rb.velocity = vt.normalized * speed;  // playerPos.position - transform.position
 
@@ -92,6 +89,15 @@ public class Enemy : MonoBehaviour
  
         //---------------------------------------------------------
 
+        if (health <= 0)
+            {
+            //animator.SetTrigger("Death");
+            //animator.Play("Death");
+            animator.SetInteger("AnimState", 2);
+            enemyRBs.Remove(rb);  
+            Destroy(gameObject);
+            }
+        
 
         // determine flash time
         if (hurtAmount <= 0 )
@@ -99,19 +105,14 @@ public class Enemy : MonoBehaviour
         else
             hurtAmount -= Time.deltaTime;
 
-        if (health < 1)
-        {
-            enemyRBs.Remove(rb);
-            deathAnimator.SetInteger("AnimState", 1);             
-            Destroy(gameObject);
-        }
+        
     }
 
     // attack player
     private void OnCollisionStay2D(Collision2D other){
         if(other.gameObject.tag == "Player"){
             if(attackSpeed <= canAttack){
-                attackAnimator.Play("Attack");
+                animator.SetTrigger("Attack");
                 other.gameObject.GetComponent<PlayerHealth>().UpdateHealth(-attackDamage);
                 canAttack = 0f;
             }else{

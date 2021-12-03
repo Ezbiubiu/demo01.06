@@ -46,12 +46,12 @@ public class BossBehavior1 : MonoBehaviour
         if (Vector2.Distance(transform.position, playerPos.position) > 1.2f)
         {
             animator.SetFloat("walking", speed);
-            rb.velocity = new Vector2(playerPos.position.x - enemyPos.position.x, playerPos.position.y - enemyPos.position.y).normalized * speed;  // playerPos.position - transform.position
+            //rb.velocity = new Vector2(playerPos.position.x - enemyPos.position.x, playerPos.position.y - enemyPos.position.y).normalized * speed;  // playerPos.position - transform.position
         }
 
         if (Vector2.Distance(transform.position, playerPos.position) < 1f)
         {
-            animator.Play("Attack");
+            animator.Play("Attack-NoEffect");
         }
 
 

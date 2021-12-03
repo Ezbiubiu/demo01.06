@@ -41,6 +41,8 @@ public class EnemyHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        animator.SetFloat("walking", health);
         // 判断闪光时间 determine flash time
         if (hurtAmount <= 0 )
             sp.material.SetFloat("_FlashAmount", 0);
@@ -51,7 +53,6 @@ public class EnemyHealth : MonoBehaviour
         {
             animator.SetTrigger("Death");
             enemyRBs.Remove(rb);
-            
             Destroy(gameObject);
         }
 

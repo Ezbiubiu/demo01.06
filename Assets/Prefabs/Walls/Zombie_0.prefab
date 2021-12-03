@@ -12,10 +12,8 @@ GameObject:
   - component: {fileID: 8902917821423045469}
   - component: {fileID: 8902917821423045468}
   - component: {fileID: 8902917821423045459}
-  - component: {fileID: 8902917821423045471}
   - component: {fileID: 3701456831434255096}
   - component: {fileID: 3709550467483036728}
-  - component: {fileID: 4562032260929194460}
   m_Layer: 0
   m_Name: Zombie_0
   m_TagString: Enemy
@@ -133,20 +131,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7005322, y: 1.2126775}
   m_EdgeRadius: 0
---- !u!114 &8902917821423045471
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8902917821423045458}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9d51960748dbf8419f7b3158b007b86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1
-  animator: {fileID: 8902917821423045468}
 --- !u!114 &3701456831434255096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,9 +143,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e466521453943d42831e34e36a9643c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 80
-  hurtLength: 0.1
+  health: 150
+  MaxHealth: 150
   animator: {fileID: 8902917821423045468}
+  hurtLength: 0.1
+  attackDamage: 10
+  attackSpeed: 1
+  speed: 2
 --- !u!50 &3709550467483036728
 Rigidbody2D:
   serializedVersion: 4
@@ -183,18 +171,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &4562032260929194460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8902917821423045458}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ab765cab075d42d2bb00842473d0937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackDamage: 10
-  attackSpeed: 1
-  animator: {fileID: 8902917821423045468}
