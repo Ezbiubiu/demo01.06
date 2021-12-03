@@ -22,7 +22,7 @@ public class PlayerHealth : MonoBehaviour
             health = 0f;
             Debug.Log("Player Respawn");
         }
-        Debug.Log("Player saved");
+        //Debug.Log("Player saved");
         GlobalControl.Instance.HP = health;
 
     }
