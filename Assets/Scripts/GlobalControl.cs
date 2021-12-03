@@ -9,12 +9,15 @@ public class GlobalControl : MonoBehaviour
     public float HP;
     public int level;
     //public int reward;
+
     void Awake()
     {
         Debug.Log("GC awake");
         HP = 100;
         level = 0;
         //reward = 0;
+
+
         if (Instance == null)
         {
             DontDestroyOnLoad(gameObject);
@@ -24,6 +27,7 @@ public class GlobalControl : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        
     }
     
         
