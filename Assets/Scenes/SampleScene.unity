@@ -727,7 +727,6 @@ MonoBehaviour:
     waveW: {fileID: 277383163450899742, guid: c5e726edaa8144f2b896b7963d76b6c4, type: 3}
     shutW: {fileID: 4258264171228766910, guid: 768be7302a98a49488d1d848fba19f6e, type: 3}
     improW: {fileID: 2403184357623776206, guid: de75d5f4934ee43d2aad1ae771e438e4, type: 3}
-    Key: {fileID: 8783236142691771137, guid: 432b0b6bee44e4dc18ee273046d5d879, type: 3}
 --- !u!4 &1815395367
 Transform:
   m_ObjectHideFlags: 0
@@ -866,9 +865,9 @@ GameObject:
   - component: {fileID: 2081164111}
   - component: {fileID: 2081164110}
   - component: {fileID: 2081164106}
-  - component: {fileID: 2081164109}
   - component: {fileID: 2081164112}
   - component: {fileID: 2081164113}
+  - component: {fileID: 2081164109}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
