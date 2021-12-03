@@ -40,12 +40,13 @@ public class BossBehavior1 : MonoBehaviour
 
         if (health < 1)
         {
+            GetComponent<DropGift>().getGift();
             Destroy(gameObject);
         }
 
         if (Vector2.Distance(transform.position, playerPos.position) > 0.1f)
         {
-            animator.SetFloat("walking", speed);
+            animator.SetFloat("Walk", speed);
             rb.velocity = new Vector2(playerPos.position.x - enemyPos.position.x, playerPos.position.y - enemyPos.position.y).normalized * speed;  // playerPos.position - transform.position
         }
 

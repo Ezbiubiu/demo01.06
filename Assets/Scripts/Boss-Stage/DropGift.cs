@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DropGift : MonoBehaviour
 {
+    public GameObject[] gos;
     // Start is called before the first frame update
     void Start()
     {

@@ -2640,6 +2640,8 @@ MonoBehaviour:
   spawnRadius: 3
   time: 0.5
   enemies:
+  - {fileID: 3099508453120771439, guid: 083a9ab5e8ed3f1459398c318dd5ad15, type: 3}
+  - {fileID: 251622957558552015, guid: 8b77ba9dc427e804bb6a6110448ec7e5, type: 3}
   - {fileID: 8902917821423045458, guid: 6bfe1a1de48ba054cb757dc8dcf81a97, type: 3}
 --- !u!1 &6245999947066360273
 GameObject:

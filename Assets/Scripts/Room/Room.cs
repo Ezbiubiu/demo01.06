@@ -15,10 +15,9 @@ public class Room : MonoBehaviour
 
 //****************Enemy Spawner***********************************************
     [SerializeField]
-    private float spawnRadius = 4, time = 15.5f;
+    private float spawnRadius = 4; //, time = 15.5f
 
     public GameObject[] enemies;
-
 
 
     // Start is called before the first frame update
@@ -56,7 +55,7 @@ public class Room : MonoBehaviour
         {
             CameraPos.instance.ChangeTarget(transform);
             // GetComponent<EnemySpawner>().Start();
-            for (int n = enemies.Length; n <= 3; n ++)
+            for (int n = enemies.Length; n <= 5; n ++) // n = enemies num + 2
                 StartCoroutine(SpawnAnEnemy());
         }
 
@@ -68,7 +67,7 @@ public class Room : MonoBehaviour
         Vector2 spawnPos = gameObject.transform.position;
         spawnPos += Random.insideUnitCircle.normalized * spawnRadius;
 
-        yield return new WaitForSeconds(time);
+        yield return new WaitForSeconds(1f);
         Instantiate(enemies[Random.Range(0, enemies.Length)], spawnPos, Quaternion.identity);
 
         // StartCoroutine(SpawnAnEnemy());

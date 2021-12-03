@@ -36,6 +36,14 @@ public class PlayerReward : MonoBehaviour
             KeyNum.text = key.ToString();
             // GlobalControl.Instance.reward = key;
         }
+
+        if (collision.tag == "BossPortal")
+        {
+            //boss room portal !!!
+
+
+            
+        }
     }
 
     void Update()
