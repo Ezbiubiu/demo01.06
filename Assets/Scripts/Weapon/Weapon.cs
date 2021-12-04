@@ -12,7 +12,7 @@ public class Weapon : ScriptableObject
 
     public float fireRate = 1;
 
-    public int damage = 20;
+    public float damage = 20 + GlobalControl.Instance.level;
 
     public void Shoot()
     {

@@ -45,13 +45,19 @@ public class Enemy : MonoBehaviour
 
     private Transform enemyPos;
     // private Vector2 moveTo;
+    
+    
+    //*********************************
+    public GameObject damageCanvas;
 
 
 ///////////////////////////////////
     void Awake()
     {
+        health += GlobalControl.Instance.level * 5;
         sp = GetComponent<SpriteRenderer>();
         MaxHealth = health;
+        attackDamage +=  GlobalControl.Instance.level *2;
 
         //follow---------------------------------------------------------
         playerPos = GameObject.FindGameObjectWithTag("Player").transform;  
@@ -70,6 +76,8 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        
         //-------------------------------------------------------
         //follow
         if (Vector2.Distance(transform.position, playerPos.position) < 10f  && Vector2.Distance(transform.position,playerPos.position) > 0.1f) // enemy will stay if distance longer than 10f
@@ -126,6 +134,9 @@ public class Enemy : MonoBehaviour
     {
         if (other.tag == "Bullet") 
         {
+            DamageNum damagable = Instantiate(damageCanvas, other.transform.position, Quaternion.identity).GetComponent<DamageNum>();
+            damagable.showDamage(Mathf.RoundToInt(GameObject.Find("Player").GetComponent<PlayerMovement>().currentWeapon.damage));
+
             Vector2 difference = other.transform.position - transform.position;  //  repel angel
             gameObject.transform.position = new Vector2(gameObject.transform.position.x + difference.x, 
                 gameObject.transform.position.y + difference.y); //repel distance

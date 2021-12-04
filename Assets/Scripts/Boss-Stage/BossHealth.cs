@@ -31,6 +31,7 @@ public class BossHealth : MonoBehaviour
 
     private void Awake()
     {
+        health += GlobalControl.Instance.level * 10f;
         sp = GetComponent<SpriteRenderer>();
         MaxHealth = health;
     }
@@ -53,6 +54,7 @@ public class BossHealth : MonoBehaviour
             animator.SetTrigger("Death");
             // GetComponent<DropGift>().getGift();
             chestCLOSE.SetActive(true);
+            GlobalControl.Instance.level++;
             Destroy(gameObject);
         }
 

@@ -12,11 +12,20 @@ public class PlayerHealth : MonoBehaviour
     public float maxHealth;
 
     private void Start(){
+
+        GlobalControl.Instance.HP += GlobalControl.Instance.level * 10;
+
+        if (maxHealth >= GlobalControl.Instance.HP)
+            GlobalControl.Instance.HP = maxHealth;
+ 
         health = GlobalControl.Instance.HP;
+
     }
 
     public void UpdateHealth(float mod){
         health += mod;
+        GlobalControl.Instance.HP += GlobalControl.Instance.level * 10;
+        maxHealth += GlobalControl.Instance.HP;
 
         if(health > maxHealth){
             health = maxHealth;

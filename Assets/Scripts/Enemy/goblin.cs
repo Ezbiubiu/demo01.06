@@ -33,7 +33,7 @@ public class goblin : MonoBehaviour
     [SerializeField]
     private float attackDamage = 10f;
     [SerializeField]
-    private float attackSpeed = 1f;
+    private float attackSpeed = .5f;
     private float canAttack;
 
 
@@ -53,8 +53,12 @@ public class goblin : MonoBehaviour
 ///////////////////////////////////
     void Awake()
     {
+        speed +=  (GlobalControl.Instance.level * 0.1f);
+        health += GlobalControl.Instance.level * 5;
         sp = GetComponent<SpriteRenderer>();
         MaxHealth = health;
+        attackDamage +=  GlobalControl.Instance.level * 2;
+
 
         //follow---------------------------------------------------------
         playerPos = GameObject.FindGameObjectWithTag("Player").transform;  
@@ -73,6 +77,7 @@ public class goblin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         //-------------------------------------------------------
         //follow
         
@@ -122,6 +127,7 @@ public class goblin : MonoBehaviour
             }
         }
     }
+
 
     // get injured after bullet shooting inside enemy
     private void OnTriggerEnter2D(Collider2D other)

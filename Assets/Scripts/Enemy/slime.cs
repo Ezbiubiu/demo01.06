@@ -56,9 +56,11 @@ public class slime : MonoBehaviour
 ///////////////////////////////////
     void Awake()
     {
+        health += GlobalControl.Instance.level * 20;
         sp = GetComponent<SpriteRenderer>();
         MaxHealth = health;
-
+        attackDamage +=  GlobalControl.Instance.level * 5 ;
+        
         //follow---------------------------------------------------------
         playerPos = GameObject.FindGameObjectWithTag("Player").transform;  
         enemyPos = gameObject.transform; 
@@ -76,6 +78,7 @@ public class slime : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         //-------------------------------------------------------
         //follow
         if (Vector2.Distance(transform.position, playerPos.position) < 10f  && Vector2.Distance(transform.position,playerPos.position) > 0.1f) // enemy will stay if distance longer than 10f
