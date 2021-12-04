@@ -55,7 +55,8 @@ public class Room : MonoBehaviour
         {
             CameraPos.instance.ChangeTarget(transform);
             // GetComponent<EnemySpawner>().Start();
-            for (int n = enemies.Length; n <= 5; n ++) // n = enemies num + 2
+            float num = 5 + GlobalControl.Instance.level;
+            for (float n = (float)enemies.Length; n <= num; n ++) // n = enemies num + 2
                 StartCoroutine(SpawnAnEnemy());
         }
 

@@ -12,8 +12,13 @@ public class Weapon : ScriptableObject
 
     public float fireRate = 1;
 
-    public float damage = 20 + GlobalControl.Instance.level;
+    public float damage = 20;
 
+
+    void Update()
+    {
+       damage += GlobalControl.Instance.level;
+    }
     public void Shoot()
     {
         Instantiate(bulletPrefab, GameObject.Find("FirePoint").transform.position,Quaternion.identity);

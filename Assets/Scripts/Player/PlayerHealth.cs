@@ -36,12 +36,12 @@ public class PlayerHealth : MonoBehaviour
             if(SceneManager.GetActiveScene().buildIndex == 1)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+2);
-                Destroy(gameObject);
+                // Destroy(gameObject);
             }
             if(SceneManager.GetActiveScene().buildIndex == 2)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
-                Destroy(gameObject);
+                // Destroy(gameObject);
             }
         }
         //Debug.Log("Player saved");
