@@ -50,7 +50,7 @@ public class slime : MonoBehaviour
     //*********************************
     public GameObject damageCanvas;
 
-
+    private float time = 0.2f;
 
 ///////////////////////////////////
     void Awake()
@@ -133,6 +133,8 @@ public class slime : MonoBehaviour
             // gameObject.transform.position = new Vector2(gameObject.transform.position.x + difference.x, 
             //     gameObject.transform.position.y + difference.y); //repel distance
 
+            StartCoroutine(stop()); // will stop move for a while after getting hurt.
+
             health -= GameObject.Find("Player").GetComponent<PlayerMovement>().currentWeapon.damage;
             HurtShader();
             Destroy(other.gameObject);
@@ -144,6 +146,14 @@ public class slime : MonoBehaviour
     {
         sp.material.SetFloat("_FlashAmount", 1); 
         hurtAmount = hurtLength; //control flash time length by control "hurtLength"
+    }
+
+    IEnumerator stop()
+    {
+        float sp_O = speed;
+        speed = 0;
+        yield return new WaitForSeconds(time);
+        speed = sp_O;
     }
 
 }

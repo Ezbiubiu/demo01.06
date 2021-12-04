@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -20,10 +22,21 @@ public class PlayerHealth : MonoBehaviour
             health = maxHealth;
         }else if(health <= 0f){
             health = 0f;
-            Debug.Log("Player Respawn");
+            GlobalControl.Instance.HP = health;
+
+            if(SceneManager.GetActiveScene().buildIndex == 1)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+2);
+                Destroy(gameObject);
+            }
+            if(SceneManager.GetActiveScene().buildIndex == 2)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+                Destroy(gameObject);
+            }
         }
         //Debug.Log("Player saved");
-        GlobalControl.Instance.HP = health;
+
 
     }
   

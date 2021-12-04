@@ -19,6 +19,11 @@ public class BossBehavior1 : MonoBehaviour
     private float canAttack;
     
     public Animator animator;
+
+
+//***************barrage*******************
+//test function
+    GameObject[] FlamesFlares;
     
 
     private void Awake()
@@ -46,6 +51,11 @@ public class BossBehavior1 : MonoBehaviour
         {
             animator.SetFloat("Walk", speed);
             rb.velocity = new Vector2(playerPos.position.x - enemyPos.position.x, playerPos.position.y - enemyPos.position.y).normalized * speed;  // playerPos.position - transform.position
+            float InputX = playerPos.position.x - enemyPos.position.x;
+                if (InputX > 0)
+                    transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
+                else if (InputX < 0)
+                    transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
         }
 
 
@@ -79,6 +89,12 @@ public class BossBehavior1 : MonoBehaviour
                 canAttack += Time.deltaTime;
             }
         }
+    }
+
+
+    public void barrage() // should be called by animator
+    {
+        
     }
 
 }

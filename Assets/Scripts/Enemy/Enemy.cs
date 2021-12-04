@@ -132,8 +132,8 @@ public class Enemy : MonoBehaviour
 
 
             Vector2 difference = other.transform.position - transform.position;  //  repel angel
-            gameObject.transform.position = new Vector2(gameObject.transform.position.x + difference.x, 
-                gameObject.transform.position.y + difference.y); //repel distance
+            gameObject.transform.position = new Vector2(gameObject.transform.position.x + difference.x/(1.2f), 
+                gameObject.transform.position.y + difference.y/(1.2f)); //repel distance
 
             health -= GameObject.Find("Player").GetComponent<PlayerMovement>().currentWeapon.damage;
             HurtShader();
