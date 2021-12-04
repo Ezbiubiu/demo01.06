@@ -10,6 +10,12 @@ public class PlayerReward : MonoBehaviour
     public int key;
     public Text KeyNum;
     private PlayerHealth playerHealth;
+    public int level;
+    public Text levelNum;
+    public GameObject congrats;
+    public GameObject startDialog;
+    
+    
     
 
 // //********************************************
@@ -26,6 +32,17 @@ public class PlayerReward : MonoBehaviour
     {
         playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>();
         // key = GlobalControl.Instance.reward;
+        level = GlobalControl.Instance.level;
+
+        if(SceneManager.GetActiveScene().buildIndex == 1){
+            if (GlobalControl.Instance.level == 0){
+                startDialog.SetActive(true);
+            }
+            else if (GlobalControl.Instance.level >=1 ){
+                congrats.SetActive(true);
+
+            }
+        }
 
     }
  
@@ -38,11 +55,13 @@ public class PlayerReward : MonoBehaviour
             Destroy(collision.gameObject);
             playerHealth.health += 5;
             playerHealth.healthNum.text = playerHealth.health.ToString();
+            
             GlobalControl.Instance.HP = playerHealth.health;
             if (playerHealth.health > playerHealth.maxHealth)
             {
                 playerHealth.health = playerHealth.maxHealth;
                 GlobalControl.Instance.HP = playerHealth.health;
+                playerHealth.healthNum.text = playerHealth.health.ToString();
             }
 
             //hp += 1;
@@ -117,7 +136,7 @@ public class PlayerReward : MonoBehaviour
     void Update()
     {
         KeyNum.text = key.ToString();
-    
+        levelNum.text = level.ToString();
         
         
     }

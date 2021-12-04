@@ -54,7 +54,6 @@ public class BossHealth : MonoBehaviour
             animator.SetTrigger("Death");
             // GetComponent<DropGift>().getGift();
             chestCLOSE.SetActive(true);
-            GlobalControl.Instance.level++;
             Destroy(gameObject);
         }
 

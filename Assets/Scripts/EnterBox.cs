@@ -21,7 +21,8 @@ public class EnterBox : MonoBehaviour
     void OnTriggerExit2D(Collider2D collision)
     {
 
-        GlobalControl.Instance.MaxHP += 10f;
+
+
         if (collision.tag == "Player")
         {
             e.SetActive(false);
