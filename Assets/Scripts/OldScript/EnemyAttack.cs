@@ -18,6 +18,7 @@ public class EnemyAttack : MonoBehaviour
             if(attackSpeed <= canAttack){
                 animator.Play("Attack-NoEffect");
                 other.gameObject.GetComponent<PlayerHealth>().UpdateHealth(-attackDamage);
+                // GlobalControl.Instance.HP -= attackDamage;
                 canAttack = 0f;
             }else{
                 canAttack += Time.deltaTime;

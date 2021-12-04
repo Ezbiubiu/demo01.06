@@ -17,7 +17,6 @@ public class GlobalControl : MonoBehaviour
         level = 0;
         //reward = 0;
 
-
         if (Instance == null)
         {
             DontDestroyOnLoad(gameObject);

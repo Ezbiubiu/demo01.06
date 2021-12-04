@@ -52,6 +52,7 @@ public class EnemyHealth : MonoBehaviour
         if (health < 1)
         {
             animator.SetTrigger("Death");
+            GetComponent<DropGift>().getGift();
             enemyRBs.Remove(rb);
             Destroy(gameObject);
         }
