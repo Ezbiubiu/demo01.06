@@ -41,13 +41,13 @@ public class PlayerReward : MonoBehaviour
             // GlobalControl.Instance.reward = key;
         }
 
-        if (collision.tag == "BossPortal")
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-1);
-            //boss room portal !!!
-            Destroy(collision.gameObject);
+        // if (collision.tag == "BossPortal")
+        // {
+        //     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-1);
+        //     //boss room portal !!!
+        //     Destroy(collision.gameObject);
 
-        }
+        // }
     }
 
     void Update()
