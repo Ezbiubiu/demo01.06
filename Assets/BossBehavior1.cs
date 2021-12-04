@@ -13,7 +13,7 @@ public class BossBehavior1 : MonoBehaviour
     private Transform enemyPos;
     private Rigidbody2D rb;
 
-
+//******************* boss attack ****************
     [SerializeField] float attackDamage = 10f;
     [SerializeField] float attackSpeed = 1f;
     private float canAttack;

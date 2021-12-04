@@ -46,6 +46,9 @@ public class goblin : MonoBehaviour
     private Transform enemyPos;
     // private Vector2 moveTo;
 
+    //*********************************
+    public GameObject damageCanvas;
+
 
 ///////////////////////////////////
     void Awake()
@@ -122,6 +125,8 @@ public class goblin : MonoBehaviour
     {
         if (other.tag == "Bullet") 
         {
+            DamageNum damagable = Instantiate(damageCanvas, other.transform.position, Quaternion.identity).GetComponent<DamageNum>();
+            damagable.showDamage(Mathf.RoundToInt(GameObject.Find("Player").GetComponent<PlayerMovement>().currentWeapon.damage));
             // Vector2 difference = other.transform.position - transform.position;  //  repel angel
             // gameObject.transform.position = new Vector2(gameObject.transform.position.x + difference.x, 
             //     gameObject.transform.position.y + difference.y); //repel distance

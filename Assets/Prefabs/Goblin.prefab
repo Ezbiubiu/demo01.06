@@ -169,3 +169,4 @@ MonoBehaviour:
   attackDamage: 2
   attackSpeed: 1.5
   speed: 4
+  damageCanvas: {fileID: 5907471077642676337, guid: 991abf9ff8fc45541a1583048eee1e56, type: 3}

@@ -48,7 +48,6 @@ public class Enemy : MonoBehaviour
 
 
     //*********************************
-
     public GameObject damageCanvas;
 
 
