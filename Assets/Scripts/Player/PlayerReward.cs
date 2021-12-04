@@ -11,8 +11,14 @@ public class PlayerReward : MonoBehaviour
     public Text KeyNum;
     private PlayerHealth playerHealth;
 
+// //********************************************
+//     public GameObject chestCLOSE;
+//     public GameObject chestOPEN;
 
-    // public Animator BoxAnimator;
+//     bool openBox = false;
+
+
+    // public GameObject textTransfer;
 
     
     private void Awake()
@@ -43,15 +49,61 @@ public class PlayerReward : MonoBehaviour
             // GlobalControl.Instance.reward = key;
         }
 
-        if (collision.tag == "BossPortal")
-        {
-            // Instantiate(BoxAnimator, collision.transform.position, Quaternion.identity);
+        // if (collision.tag == "BossPortal")
+        // {
             
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-1);
-            //boss room portal !!!
-            Destroy(collision.gameObject);
 
-        }
+            // Instantiate(BoxAnimator, collision.transform.position, Quaternion.identity);
+            // chestCLOSE.SetActive(false);
+            // chestOPEN.SetActive(true);
+
+            // Destroy(chestCLOSE);
+            // chestCLOSE.SetActive(false);
+            // boxOpened();
+
+
+            // if(openBox == true)
+            // {
+            //     textTransfer.SetActive(true);
+            //     // Instantiate(BoxAnimator, collision.transform.position, Quaternion.identity);
+
+            //     if (Input.GetKeyDown(KeyCode.B))
+            //     {
+            //         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-1);
+            //         //boss room portal !!!
+            //         Destroy(collision.gameObject);
+
+            //     }
+
+                // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-1);
+                //boss room portal !!!
+        //     }
+
+        // }
+
+
+        // void boxOpened()
+        // {
+        //     Vector3 chestPos = chestCLOSE.transform.position;
+        //     Instantiate(chestOPEN, chestPos, Quaternion.identity);
+        //     openBox = true;
+        // }
+
+        // if (collision.tag == "chestOpen")
+        // {
+        //     textTransfer.SetActive(true);
+        //     // Instantiate(BoxAnimator, collision.transform.position, Quaternion.identity);
+
+        //     if (Input.GetKeyDown(KeyCode.I))
+        //     {
+        //         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-1);
+        //         //boss room portal !!!
+        //         Destroy(collision.gameObject);
+
+        //     }
+
+        // }
+
     }
 
     void Update()

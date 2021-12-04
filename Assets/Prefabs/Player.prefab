@@ -372,8 +372,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ca513b3ce60549dea47673cd18faf48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 3
-  healthNum: {fileID: 0}
+  key: 0
+  KeyNum: {fileID: 0}
+  chest1: {fileID: 6067163388515747253, guid: 70b95d727ea413744b031393e94639c0, type: 3}
+  chest2: {fileID: 0}
+  openTex: {fileID: 0}
 --- !u!114 &7439771871261696153
 MonoBehaviour:
   m_ObjectHideFlags: 0

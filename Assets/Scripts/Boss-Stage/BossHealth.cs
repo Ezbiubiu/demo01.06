@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHealth : MonoBehaviour
+public class BossHealth : MonoBehaviour
 {
     [SerializeField]
     private float health;
@@ -24,16 +24,15 @@ public class EnemyHealth : MonoBehaviour
 
     public Animator animator;
 
+//****************************************************
+    public GameObject chestCLOSE;
+    public GameObject chestOPEN;
+
 
     private void Awake()
     {
         sp = GetComponent<SpriteRenderer>();
         MaxHealth = health;
-
-
-        if (enemyRBs == null)
-            enemyRBs = new List<Rigidbody2D>();
-        enemyRBs.Add(rb); 
     }
     
 
@@ -52,7 +51,8 @@ public class EnemyHealth : MonoBehaviour
         if (health < 1)
         {
             animator.SetTrigger("Death");
-            enemyRBs.Remove(rb);
+            // GetComponent<DropGift>().getGift();
+            chestCLOSE.SetActive(true);
             Destroy(gameObject);
         }
 
@@ -63,9 +63,9 @@ public class EnemyHealth : MonoBehaviour
     {
         if (other.tag == "Bullet") 
         {
-            Vector2 difference = other.transform.position - transform.position;  // 击退角度 repel angel
-            gameObject.transform.position = new Vector2(gameObject.transform.position.x + difference.x, 
-                gameObject.transform.position.y + difference.y); //击退距离 repel distance
+            // Vector2 difference = other.transform.position - transform.position;  // 击退角度 repel angel
+            // gameObject.transform.position = new Vector2(gameObject.transform.position.x + difference.x, 
+            //     gameObject.transform.position.y + difference.y); //击退距离 repel distance
 
             health -= GameObject.Find("Player").GetComponent<PlayerMovement>().currentWeapon.damage;
             HurtShader();
