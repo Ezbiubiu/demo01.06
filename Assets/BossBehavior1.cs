@@ -13,14 +13,17 @@ public class BossBehavior1 : MonoBehaviour
     private Transform enemyPos;
     private Rigidbody2D rb;
 
-
-    [SerializeField]
-    private float attackDamage = 10f;
-    [SerializeField]
-    private float attackSpeed = 1f;
+//******************* boss attack ****************
+    [SerializeField] float attackDamage = 10f;
+    [SerializeField] float attackSpeed = 1f;
     private float canAttack;
     
     public Animator animator;
+
+
+//***************barrage*******************
+//test function
+    GameObject[] FlamesFlares;
     
 
     private void Awake()
@@ -48,6 +51,11 @@ public class BossBehavior1 : MonoBehaviour
         {
             animator.SetFloat("Walk", speed);
             rb.velocity = new Vector2(playerPos.position.x - enemyPos.position.x, playerPos.position.y - enemyPos.position.y).normalized * speed;  // playerPos.position - transform.position
+            float InputX = playerPos.position.x - enemyPos.position.x;
+                if (InputX > 0)
+                    transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
+                else if (InputX < 0)
+                    transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
         }
 
 
@@ -82,4 +90,11 @@ public class BossBehavior1 : MonoBehaviour
             }
         }
     }
+
+
+    public void barrage() // should be called by animator
+    {
+        
+    }
+
 }

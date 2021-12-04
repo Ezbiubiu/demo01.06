@@ -46,13 +46,21 @@ public class slime : MonoBehaviour
     private Transform enemyPos;
     // private Vector2 moveTo;
 
+    
+    //*********************************
+    public GameObject damageCanvas;
+
+    public float time;
+    private float timeNext;
 
 ///////////////////////////////////
     void Awake()
     {
+        health += GlobalControl.Instance.level * 20;
         sp = GetComponent<SpriteRenderer>();
         MaxHealth = health;
-
+        attackDamage +=  GlobalControl.Instance.level * 5 ;
+        
         //follow---------------------------------------------------------
         playerPos = GameObject.FindGameObjectWithTag("Player").transform;  
         enemyPos = gameObject.transform; 
@@ -70,6 +78,7 @@ public class slime : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         //-------------------------------------------------------
         //follow
         if (Vector2.Distance(transform.position, playerPos.position) < 10f  && Vector2.Distance(transform.position,playerPos.position) > 0.1f) // enemy will stay if distance longer than 10f
@@ -92,12 +101,12 @@ public class slime : MonoBehaviour
         // determine flash time
         if (hurtAmount <= 0 )
             sp.material.SetFloat("_FlashAmount", 0);
+            // speed = 0;             // will stop move for a while after getting hurt.
         else
             hurtAmount -= Time.deltaTime;
 
         if (health < 1)
         {
-            
             enemyRBs.Remove(rb);
             // deathAnimator.SetInteger("AnimState", 1);             
             Destroy(gameObject);
@@ -122,6 +131,8 @@ public class slime : MonoBehaviour
     {
         if (other.tag == "Bullet") 
         {
+            DamageNum damagable = Instantiate(damageCanvas, other.transform.position, Quaternion.identity).GetComponent<DamageNum>();
+            damagable.showDamage(Mathf.RoundToInt(GameObject.Find("Player").GetComponent<PlayerMovement>().currentWeapon.damage));
             // Vector2 difference = other.transform.position - transform.position;  //  repel angel
             // gameObject.transform.position = new Vector2(gameObject.transform.position.x + difference.x, 
             //     gameObject.transform.position.y + difference.y); //repel distance
@@ -138,5 +149,6 @@ public class slime : MonoBehaviour
         sp.material.SetFloat("_FlashAmount", 1); 
         hurtAmount = hurtLength; //control flash time length by control "hurtLength"
     }
+
 
 }

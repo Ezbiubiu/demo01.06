@@ -33,7 +33,7 @@ public class goblin : MonoBehaviour
     [SerializeField]
     private float attackDamage = 10f;
     [SerializeField]
-    private float attackSpeed = 1f;
+    private float attackSpeed = .5f;
     private float canAttack;
 
 
@@ -46,12 +46,19 @@ public class goblin : MonoBehaviour
     private Transform enemyPos;
     // private Vector2 moveTo;
 
+    //*********************************
+    public GameObject damageCanvas;
+
 
 ///////////////////////////////////
     void Awake()
     {
+        speed +=  (GlobalControl.Instance.level * 0.1f);
+        health += GlobalControl.Instance.level * 5;
         sp = GetComponent<SpriteRenderer>();
         MaxHealth = health;
+        attackDamage +=  GlobalControl.Instance.level * 2;
+
 
         //follow---------------------------------------------------------
         playerPos = GameObject.FindGameObjectWithTag("Player").transform;  
@@ -70,8 +77,12 @@ public class goblin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         //-------------------------------------------------------
         //follow
+        
+        // if(GetComponent())
+
         if (Vector2.Distance(transform.position, playerPos.position) < 10f  && Vector2.Distance(transform.position,playerPos.position) > 0.1f) // enemy will stay if distance longer than 10f
         {// enemy will not be inside your body
                 // transform.position = Vector2.MoveTowards(transform.position, playerPos.position, speed * Time.deltaTime); 
@@ -117,11 +128,14 @@ public class goblin : MonoBehaviour
         }
     }
 
+
     // get injured after bullet shooting inside enemy
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Bullet") 
         {
+            DamageNum damagable = Instantiate(damageCanvas, other.transform.position, Quaternion.identity).GetComponent<DamageNum>();
+            damagable.showDamage(Mathf.RoundToInt(GameObject.Find("Player").GetComponent<PlayerMovement>().currentWeapon.damage));
             // Vector2 difference = other.transform.position - transform.position;  //  repel angel
             // gameObject.transform.position = new Vector2(gameObject.transform.position.x + difference.x, 
             //     gameObject.transform.position.y + difference.y); //repel distance

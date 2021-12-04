@@ -11,13 +11,14 @@ public class EnemyAttack : MonoBehaviour
     private float attackSpeed = 1f;
     private float canAttack;
 
-    private Animator  animator;
+    public Animator animator;
 
     private void OnCollisionStay2D(Collision2D other){
         if(other.gameObject.tag == "Player"){
             if(attackSpeed <= canAttack){
-                animator.SetTrigger("Attack");
+                animator.Play("Attack-NoEffect");
                 other.gameObject.GetComponent<PlayerHealth>().UpdateHealth(-attackDamage);
+                // GlobalControl.Instance.HP -= attackDamage;
                 canAttack = 0f;
             }else{
                 canAttack += Time.deltaTime;

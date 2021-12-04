@@ -165,10 +165,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 80
-  walkAnimator: {fileID: 8902917821423045468}
-  attackAnimator: {fileID: 8902917821423045468}
-  deathAnimator: {fileID: 8902917821423045468}
+  animator: {fileID: 8902917821423045468}
   hurtLength: 0.1
   attackDamage: 10
   attackSpeed: 1
   speed: 2
+  damageCanvas: {fileID: 3140646676479313962, guid: 2c266e8dbd23d7e43a5db42170772308, type: 3}
