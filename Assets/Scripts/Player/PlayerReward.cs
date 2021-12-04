@@ -37,6 +37,11 @@ public class PlayerReward : MonoBehaviour
             Destroy(collision.gameObject);
             playerHealth.health += 5;
             GlobalControl.Instance.HP = playerHealth.health;
+            if (playerHealth.health > playerHealth.maxHealth)
+            {
+                playerHealth.health = playerHealth.maxHealth;
+                GlobalControl.Instance.HP = playerHealth.health;
+            }
             //hp += 1;
             //healthNum.text = hp.ToString();
             //GlobalControl.Instance.reward = hp;

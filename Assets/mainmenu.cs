@@ -8,6 +8,8 @@ public class mainmenu : MonoBehaviour
     public void playgame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+        GlobalControl.Instance.HP = 100;
+        GlobalControl.Instance.MaxHP = 100;
 
     }
     public void quitgame()

@@ -5,9 +5,8 @@ using UnityEngine;
 public class BossHealth : MonoBehaviour
 {
     [SerializeField]
-    private float health;
-
-    private float MaxHealth;
+    public float health;
+    public float MaxHealth;
 //************************************************
 // enemy colliders List
 
@@ -31,6 +30,7 @@ public class BossHealth : MonoBehaviour
 
     private void Awake()
     {
+        health = 100f;
         health += GlobalControl.Instance.level * 10f;
         sp = GetComponent<SpriteRenderer>();
         MaxHealth = health;

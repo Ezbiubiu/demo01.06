@@ -7,6 +7,7 @@ public class GlobalControl : MonoBehaviour
     // Start is called before the first frame update
     public static GlobalControl Instance;
     public float HP;
+    public float MaxHP;
     public int level;
     //public int reward;
 
@@ -14,6 +15,7 @@ public class GlobalControl : MonoBehaviour
     {
         Debug.Log("GC awake");
         HP = 100;
+        MaxHP = 100;
         level = 0;
         //reward = 0;
 
