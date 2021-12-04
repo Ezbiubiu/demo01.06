@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
@@ -10,6 +11,8 @@ public class PlayerHealth : MonoBehaviour
     public float health;
     [SerializeField]
     public float maxHealth;
+    public Text healthNum;
+
 
     private void Start(){
 
@@ -20,11 +23,13 @@ public class PlayerHealth : MonoBehaviour
  
         health = GlobalControl.Instance.HP;
         maxHealth = GlobalControl.Instance.MaxHP;
+        healthNum.text = health.ToString();
     }
 
     public void UpdateHealth(float mod){
         health += mod;
         GlobalControl.Instance.HP = health;
+        healthNum.text = health.ToString();
         //GlobalControl.Instance.HP += GlobalControl.Instance.level * 10;
 
         //maxHealth += GlobalControl.Instance.HP;

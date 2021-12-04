@@ -10,6 +10,7 @@ public class PlayerReward : MonoBehaviour
     public int key;
     public Text KeyNum;
     private PlayerHealth playerHealth;
+    
 
 // //********************************************
 //     public GameObject chestCLOSE;
@@ -36,12 +37,14 @@ public class PlayerReward : MonoBehaviour
         {
             Destroy(collision.gameObject);
             playerHealth.health += 5;
+            playerHealth.healthNum.text = playerHealth.health.ToString();
             GlobalControl.Instance.HP = playerHealth.health;
             if (playerHealth.health > playerHealth.maxHealth)
             {
                 playerHealth.health = playerHealth.maxHealth;
                 GlobalControl.Instance.HP = playerHealth.health;
             }
+
             //hp += 1;
             //healthNum.text = hp.ToString();
             //GlobalControl.Instance.reward = hp;
@@ -113,7 +116,9 @@ public class PlayerReward : MonoBehaviour
 
     void Update()
     {
-        KeyNum.text = key.ToString(); // Object reference not set to an instance of an object！！！！！！！！！！！！！！！！
+        KeyNum.text = key.ToString();
+    
+        
         
     }
    
