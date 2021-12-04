@@ -6,6 +6,19 @@ using UnityEngine.SceneManagement;
 public class pausemenu : MonoBehaviour
 {
     public GameObject Pmenu;
+
+    void Start()
+    {
+        ResumeGame();
+    }
+    
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            PauseGame();
+        }
+    }
     public void PauseGame()
     {
         Pmenu.SetActive(true);
