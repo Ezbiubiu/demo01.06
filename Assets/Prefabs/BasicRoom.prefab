@@ -69,8 +69,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2007139569
-  m_SortingLayer: 4
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -3746597080187785389, guid: a97ea70613b3f4db7899a23b46cb2518, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -178,8 +178,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2007139569
-  m_SortingLayer: 4
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 6565183425164262844, guid: a97ea70613b3f4db7899a23b46cb2518, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -287,8 +287,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2007139569
-  m_SortingLayer: 4
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7741737847304344390, guid: a97ea70613b3f4db7899a23b46cb2518, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -475,8 +475,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2007139569
-  m_SortingLayer: 4
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 6565183425164262844, guid: a97ea70613b3f4db7899a23b46cb2518, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2638,7 +2638,6 @@ MonoBehaviour:
   text: {fileID: 1697163146825182185}
   doorNumber: 0
   spawnRadius: 3
-  time: 0.5
   enemies:
   - {fileID: 3099508453120771439, guid: 083a9ab5e8ed3f1459398c318dd5ad15, type: 3}
   - {fileID: 251622957558552015, guid: 8b77ba9dc427e804bb6a6110448ec7e5, type: 3}
