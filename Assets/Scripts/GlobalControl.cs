@@ -18,7 +18,6 @@ public class GlobalControl : MonoBehaviour
         MaxHP = 100;
         level = 0;
         //reward = 0;
-
         if (Instance == null)
         {
             DontDestroyOnLoad(gameObject);
@@ -29,6 +28,12 @@ public class GlobalControl : MonoBehaviour
             Destroy(gameObject);
         }
         
+    }
+
+    void Update()
+    {
+        
+
     }
     
         

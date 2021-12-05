@@ -5,14 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class mainmenu : MonoBehaviour
 {
+    void Start()
+    {
+
+    }
+
     public void playgame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
         GlobalControl.Instance.HP = 100;
         GlobalControl.Instance.MaxHP = 100;
         GlobalControl.Instance.level = 0;
-
-
     }
     public void quitgame()
     {

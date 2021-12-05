@@ -22,6 +22,9 @@ public class BossHealth : MonoBehaviour
     private float hurtAmount; // counter 
 
     public Animator animator;
+    private Transform playerPos;
+
+    private Transform enemyPos;
 
 //****************************************************
     public GameObject chestCLOSE;
@@ -30,8 +33,8 @@ public class BossHealth : MonoBehaviour
 
     private void Awake()
     {
-        health = 100f;
-        health += GlobalControl.Instance.level * 10f;
+        health = 1000f;
+        health += GlobalControl.Instance.level * 100f;
         sp = GetComponent<SpriteRenderer>();
         MaxHealth = health;
     }
@@ -43,7 +46,16 @@ public class BossHealth : MonoBehaviour
     {
 
         animator.SetFloat("walking", health);
-        // 判断闪光时间 determine flash time
+        
+        playerPos = GameObject.FindGameObjectWithTag("Player").transform;  
+        enemyPos = gameObject.transform; 
+        float InputX = playerPos.position.x - enemyPos.position.x;
+        if (InputX > 0)
+            transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
+        else if (InputX < 0)
+            transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
+
+        // determine flash time
         if (hurtAmount <= 0 )
             sp.material.SetFloat("_FlashAmount", 0);
         else
@@ -64,9 +76,9 @@ public class BossHealth : MonoBehaviour
     {
         if (other.tag == "Bullet") 
         {
-            // Vector2 difference = other.transform.position - transform.position;  // 击退角度 repel angel
+            // Vector2 difference = other.transform.position - transform.position;  //  repel angel
             // gameObject.transform.position = new Vector2(gameObject.transform.position.x + difference.x, 
-            //     gameObject.transform.position.y + difference.y); //击退距离 repel distance
+            //     gameObject.transform.position.y + difference.y); // repel distance
 
             health -= GameObject.Find("Player").GetComponent<PlayerMovement>().currentWeapon.damage;
             HurtShader();

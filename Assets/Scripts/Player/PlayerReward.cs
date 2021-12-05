@@ -12,8 +12,12 @@ public class PlayerReward : MonoBehaviour
     private PlayerHealth playerHealth;
     public int level;
     public Text levelNum;
+
+    //************* text shown **************************
     public GameObject congrats;
     public GameObject startDialog;
+
+    public GameObject bossText;
     
     
     
@@ -40,8 +44,13 @@ public class PlayerReward : MonoBehaviour
             }
             else if (GlobalControl.Instance.level >=1 ){
                 congrats.SetActive(true);
-
+                
             }
+
+        }else if(SceneManager.GetActiveScene().buildIndex == 2)
+        {
+            if(GlobalControl.Instance.level == 0)
+                bossText.SetActive(true);
         }
 
     }

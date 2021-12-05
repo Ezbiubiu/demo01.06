@@ -114,21 +114,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6509d3f9e0169439aa4064d3f17b2250, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8447389506031831719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8951353717735927482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d8a8a7dcd4d34cbb9571e9bb2ce67a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Door: {fileID: 874606151570286942}
-  needs: {fileID: 4266870672188517505}
-  num: 0
 --- !u!1 &6768358627722481027
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,6 +270,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8447389506031831719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8951353717735927482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d8a8a7dcd4d34cbb9571e9bb2ce67a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Door: {fileID: 874606151570286942}
+  needs: {fileID: 4266870672188517505}
+  num: 0
 --- !u!1001 &1572737967680969714
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -395,6 +395,10 @@ PrefabInstance:
     - target: {fileID: 3379252908178601846, guid: 6e3c674f146614083b78e8a26fe67f39, type: 3}
       propertyPath: m_Color.r
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379252909543199845, guid: 6e3c674f146614083b78e8a26fe67f39, type: 3}
+      propertyPath: m_Text
+      value: You need to use 5 keys to open the door!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e3c674f146614083b78e8a26fe67f39, type: 3}

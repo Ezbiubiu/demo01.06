@@ -15,7 +15,7 @@ public class openDoor : MonoBehaviour
         num = GameObject.Find("Player").GetComponent<PlayerReward>().key;
         if (Input.GetKeyDown(KeyCode.O))
         {
-            if (num >= 3)
+            if (num >= 5)
             {
                 Door.SetActive(true);  
                 gameObject.SetActive(false);  

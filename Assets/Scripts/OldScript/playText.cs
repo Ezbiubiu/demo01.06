@@ -7,7 +7,7 @@ public class playText : MonoBehaviour
 
     public Animator ani;
 
-    bool act = false;
+
     // Start is called before the first frame update
     void Start()
     {
