@@ -167,7 +167,7 @@ MonoBehaviour:
   health: 100
   hurtLength: 0.1
   attackDamage: 20
-  attackSpeed: 1.5
+  attackSpeed: 0.8
   speed: 1
   damageCanvas: {fileID: 3140646676479313962, guid: 2c266e8dbd23d7e43a5db42170772308, type: 3}
   time: 1

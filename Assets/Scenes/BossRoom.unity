@@ -2351,7 +2351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.023584902, b: 0.023584902, a: 1}
+  m_Color: {r: 0.7735849, g: 0.20799215, b: 0.20799215, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2680,6 +2680,18 @@ PrefabInstance:
         ! WATCH OUT !!\ncan you understand me ?\ndamn !\n"
       objectReference: {fileID: 0}
     - target: {fileID: 719850954334001382, guid: c5e2d0f96e5f0446eb2a0f9a158d0227, type: 3}
+      propertyPath: m_Color.b
+      value: 0.14012992
+      objectReference: {fileID: 0}
+    - target: {fileID: 719850954334001382, guid: c5e2d0f96e5f0446eb2a0f9a158d0227, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5916741
+      objectReference: {fileID: 0}
+    - target: {fileID: 719850954334001382, guid: c5e2d0f96e5f0446eb2a0f9a158d0227, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6320754
+      objectReference: {fileID: 0}
+    - target: {fileID: 719850954334001382, guid: c5e2d0f96e5f0446eb2a0f9a158d0227, type: 3}
       propertyPath: m_FontData.m_MinSize
       value: 2
       objectReference: {fileID: 0}
@@ -2793,11 +2805,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 719850954555252051, guid: c5e2d0f96e5f0446eb2a0f9a158d0227, type: 3}
       propertyPath: m_Name
-      value: start
+      value: bosstext
       objectReference: {fileID: 0}
     - target: {fileID: 719850954555252051, guid: c5e2d0f96e5f0446eb2a0f9a158d0227, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 719850954555252063, guid: c5e2d0f96e5f0446eb2a0f9a158d0227, type: 3}
