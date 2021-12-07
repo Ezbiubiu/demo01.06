@@ -50,6 +50,7 @@ public class PlayerReward : MonoBehaviour
         }else if(SceneManager.GetActiveScene().buildIndex == 2)
         {
             if(GlobalControl.Instance.level == 0)
+                Time.timeScale = 1f;
                 bossText.SetActive(true);
         }
 

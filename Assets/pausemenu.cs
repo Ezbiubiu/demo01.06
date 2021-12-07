@@ -31,7 +31,7 @@ public class pausemenu : MonoBehaviour
     }
     public void b2menu()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-2);
 
     }
 

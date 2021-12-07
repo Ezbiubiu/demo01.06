@@ -2246,7 +2246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentWeapon: {fileID: 11400000, guid: cf7d1901b70d86e4c8c563a6d3aa22d0, type: 2}
-  speed: 5
+  speed: 3.5
   animator: {fileID: 2081164109}
   bullet: {fileID: 138893028201929186, guid: 44ec1a56a108008408fec4fdf5f43c39, type: 3}
   hurtLength: 0

@@ -337,7 +337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentWeapon: {fileID: 11400000, guid: d1a1955a9b5ac4d3ca57b422db460d19, type: 2}
-  speed: 5
+  speed: 3.5
   animator: {fileID: 7439771871261696133}
   bullet: {fileID: 138893028201929186, guid: 44ec1a56a108008408fec4fdf5f43c39, type: 3}
   hurtLength: 0
@@ -374,9 +374,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   key: 0
   KeyNum: {fileID: 0}
-  chest1: {fileID: 6067163388515747253, guid: 70b95d727ea413744b031393e94639c0, type: 3}
-  chest2: {fileID: 0}
-  openTex: {fileID: 0}
+  level: 0
+  levelNum: {fileID: 0}
+  congrats: {fileID: 0}
+  startDialog: {fileID: 0}
+  bossText: {fileID: 0}
 --- !u!114 &7439771871261696153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -391,3 +393,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 0
   maxHealth: 100
+  healthNum: {fileID: 0}
