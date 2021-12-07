@@ -13,7 +13,7 @@ public class openDoor : MonoBehaviour
     void Update()
     {
         num = GameObject.Find("Player").GetComponent<PlayerReward>().key;
-        if (Input.GetKeyDown(KeyCode.O))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             if (num >= 5)
             {

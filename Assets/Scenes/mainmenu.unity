@@ -417,8 +417,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -218, y: 76}
-  m_SizeDelta: {x: 328.5526, y: 143.0706}
+  m_AnchoredPosition: {x: -248.17944, y: 163.58295}
+  m_SizeDelta: {x: 340.1937, y: 167.9047}
   m_Pivot: {x: 0.4999999, y: 0.5}
 --- !u!114 &1117811788
 MonoBehaviour:
@@ -453,9 +453,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Contact: \n - Ankur <ajd154@usask.ca>\n - Jingyi Chen\n - Longxin Shi
-    <longxinshi@gmail.com>\n - Suyi Liu <sul043@usask.ca>\n - Yaxing Li  < yal406@usask.ca>\n-
-    Yanhao Zhao\n - Yixuan Huang\n"
+  m_Text: "Contact: \n(Alphabetical order! In no particular order !)\n - Ankur <ajd154@usask.ca>\n-
+    Jingyi Chen <jic459@usask.ca>\n - Longxin Shi <longxinshi@gmail.com>\n - Suyi
+    Liu <sul043@usask.ca>\n - Yaxing Li  < yal406@usask.ca>\n- Yanhao Zhao <>\n -
+    Yixuan Huang <yih501@usask.ca>\n"
 --- !u!222 &1117811789
 CanvasRenderer:
   m_ObjectHideFlags: 0

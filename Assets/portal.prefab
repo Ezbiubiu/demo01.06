@@ -155,6 +155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   e: {fileID: 8669666574676206421}
+  needs: {fileID: 0}
 --- !u!1 &8230275111251723402
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,15 +385,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8347998304965830175, guid: d9bfdedb5040a499e8e45b378fa239b9, type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 0.1254902
       objectReference: {fileID: 0}
     - target: {fileID: 8347998304965830175, guid: d9bfdedb5040a499e8e45b378fa239b9, type: 3}
       propertyPath: m_Color.g
-      value: 0
+      value: 0.1254902
       objectReference: {fileID: 0}
     - target: {fileID: 8347998304965830175, guid: d9bfdedb5040a499e8e45b378fa239b9, type: 3}
       propertyPath: m_Color.r
-      value: 0
+      value: 0.1254902
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8347998304965830172, guid: d9bfdedb5040a499e8e45b378fa239b9, type: 3}
