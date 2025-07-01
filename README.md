@@ -2,8 +2,12 @@ CMPT 306// Team02 //
 ***************************************************************
 
 //Game Mechanics:
-	survive from the zombie world,  get weapons from where every you can and keep shooting to stay alive from the circle world.
-	 GLHF!
+	In a dungeon crawling with zombies and terrifying creatures, fight to survive. 
+ Arm yourself, slay the beasts, dodge their attacks, and seek any chance to escape. 
+ In this looping, nightmarish world, perhaps you’ll be the one to break the cycle and end the reign of monsters.
+ GLHF!
+
+ 
 //Game Guide:
 	/* W,A,S,D for move front, left, down, and right wards
 	/* press left mouse click to shoot targets
@@ -42,12 +46,25 @@ CMPT 306// Team02 //
 	  "plyer health bar" not merge into main brench
 	?? show damage number after hitting, still working
 
-**Annotation
-We have learnt to use Github and improve our group work effciency which madde use experienced a hard time. Fortunately, 
-we have grouped our work together but still missed several functions we have designed adnd worked for hours. 
-We think our Beta game will be a perfect one.
-The burn ddown chart has 6 hours left because the "Main Menu" and "save game" parts have not been added to the game, 
-but we have both of those parts almost ready. Our original working list has 86 hours in total, but our actuall working time 
-is way more than what we planed. We appologize that we did not able to make the plan accurate.
+
+
+** Annotation
+As beginners, we went through a period of learning to collaborate effectively on GitHub. 
+Initially, we allocated approximately 90 hours of work to complete the demo of the game.
+The actual development time exceeded our initial estimate by approximately threefold. 
+Frequent revisions to the movement mechanics, extensive debugging, 
+and other unforeseen challenges significantly extended the project timeline.
+By the end of the semester, several planned features remained unimplemented, 
+such as the game-saving system, the boss's ultimate skills, and its special attack modes.
+
+**/ This demo is the result of our dedicated effort. 
+    While it features older assets and relatively conventional gameplay, 
+     we sincerely hope it brings you some enjoyment. Happy gaming !!
+
+
+
+	// Dedicated to the joyful memories of developing this game during CMPT 306. ezbiubiu //
+
+
 
 
